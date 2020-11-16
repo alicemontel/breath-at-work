@@ -15,6 +15,10 @@ ul:not(.browser-default) > li {
 	list-style-type : circle !important;
 }
 
+ul:not(.browser-default) > .notli {
+	list-style-type : none !important;
+}
+
 table {
 	border-collapse : unset !important;
 }
