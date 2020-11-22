@@ -20,14 +20,14 @@ window.onload = function() {
 } 
 
 </script>
-<body>
+<body id="bodyCalendar">
 	<nav>
-		<div class="nav-wrapper">
-		<a href="#!" class="brand-logo">Logo</a>
+		<div class="header nav-wrapper">
+		<a href="#!" class="brand-logo"><img src="./img/baw.png"/></a>
 		<ul class="right hide-on-med-and-down">
+			<li class="notli"><a href="home.html">Accueil</a></li>
 		    <li class="notli"><a href="index.html">Calendrier</a></li>
-			<li class="notli"><a href="about.html">Pourquoi ce projet ?</a></li>
-			<li class="notli"><a href="contact.html">Contact</a></li>
+			<li class="notli"><a href="about.html">A propos</a></li>
 		</ul>
 		</div>
 	</nav>
@@ -43,7 +43,7 @@ window.onload = function() {
 		</table>
 	</div>
 	<!-- Dropdown Trigger -->
-	<a class='dropdown-trigger btn' href='#' data-target='history'>+</a>
+	<a class='dropdown-trigger btn historyBtn' href='#' data-target='history'>+</a>
 	
 	<!-- Modal Structure -->
 	<div id="modal1" class=" modalDay modal modal-fixed-footer">
@@ -51,6 +51,7 @@ window.onload = function() {
 			<h4 id="titleModal"></h4>
 			<div id="contentModal"></div>
 			<img id="pictureModal" />
+			<div id="gofurther"></div>
 		</div>
 		<div class="modal-footer">
 			<a href="#!" class="modal-close waves-effect waves-green btn-flat"> A demain ! </a>

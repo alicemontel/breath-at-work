@@ -1,9 +1,27 @@
 html, body {
 	height : 100%;
+	//background-color : #e8f1f2;
+}
+
+#bodyCalendar{
+	background-image : url('../img/white_wood_pixabay.jpg');
+	background-position : center;
+}
+
+.header {
+	background-color : #1D5E47;
 }
 
 h1 {
 	text-align : center;
+	color : #DF2935;
+	font-size :2.5em !important;
+	font-family : monospace, serif !important;
+}
+
+.btn {
+	background-color : #1D5E47 !important;
+	float : right;
 }
 
 li {
@@ -17,18 +35,19 @@ ul:not(.browser-default) > li {
 
 ul:not(.browser-default) > .notli {
 	list-style-type : none !important;
+	display : inline-block;
 }
 
 table {
 	border-collapse : unset !important;
 }
 .calendar {
-	width : 70%; 
+	width : 60%; 
 	height : 70%;
 	table-layout: fixed ;
 	margin : auto;
 	text-align : center;
-	
+	//padding-left : 10%	;
 }
 
 td {
@@ -41,6 +60,9 @@ td {
 
 .xmasDay {
 	height : 20%;
+	width : 20%;
+	margin-left:auto;
+	margin-right : auto;
 }
 
 .daycase {
@@ -50,35 +72,60 @@ td {
 
 .dayTileOpened{
 	display : block; 
-	color : green;
-	padding : 20px;
-	background-image : url('../images/chat.jpg');
-	background-size : contain;
-	background-position : center;
-	background-repeat: no-repeat;
+	color : #1D5E47;
+	padding : 5px;
+	font-weight : bold;
+	border: 2px groove #1D5E47 !important;
+	width :  60%;
+	height : 100%;
+	margin : auto;
 }
 
 .dayTileClosed{
 	display : block; 
-	color : red;
-	background-image : url('../images/back.png');
-	background-size : contain;
-	background-position : center;
-	background-repeat: no-repeat;
+	color : #DF2935;
+	padding : 5px;
+	font-weight : bold;
+	border: 2px groove #FFDA0A !important;
+	width :  60%;
+	height : 100%;
+	margin : auto;
 }
 
 .dropdown-content {
-	width : 25% !important ;
+	width : 20% !important ;
 }
 
 .modalHistory{
 	border : none; 
 	background-color: transparent;
-	height : auto;
 	width : 100%;
 	display : flex;
+	min-height : 50px;
+	padding-left : 5%;
+}
+
+.history{
+	scrollbar-color : green;
 }
 
 .modal {
 	border-radius : 10px !important;
+}
+
+#contactContent, #srcContent, #credit{
+	text-align : justify;
+	padding-left : 10%;
+	padding-right :20%;
+}
+
+#mypic{
+	max-width : 200px;
+	max-height: 200px;
+	float : left;
+	margin-right : 20px;
+}
+
+.psst{
+	font-size : 0.7em;
 }

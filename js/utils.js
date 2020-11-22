@@ -39,6 +39,22 @@ function shuffle(array) {
   array.sort(() => Math.random() - 0.7);
 }
 
+//Save the value function - save it to localStorage as (ID, VALUE)
+function saveValue(elem){
+    var id = "thisnow";  // get the sender's id to save it . 
+    var val = "open"; // get the value. 
+    localStorage.setItem(id, val);// Every time user writing something, the localStorage's value will override .
+	elem.className="dayTileOpened modal-trigger";
+}
+
+//get the saved value function - return the value of "v" from localStorage. 
+function getSavedValue(){
+    if (!localStorage.getItem("thisnow")) {
+        return "closed";// You can change this to your defualt value. 
+    }
+    return localStorage.getItem("thisnow");
+}
+
 function fillCalendar(){
 	today=new Date();
 	todayDay = today.getDate();
@@ -52,8 +68,11 @@ function fillCalendar(){
 		for(j = 0; j < 6; j++){
       		var day = arr[j+i*6];        	
 			//if( todayMonth == 11 && day<=todayDay || today >= xmas){
-			if(day<=todayDay){
+			if(day<todayDay || (day==todayDay && getSavedValue()=="open")){
 				calendarContent += "<td class=\"td\"><a class=\"dayTileOpened modal-trigger\" href=\"#";
+				calendarContent += "modal1";
+			} else if(day==todayDay && getSavedValue()=="closed"){
+				calendarContent += "<td class=\"td\"><a class=\"dayTileClosed modal-trigger\" onclick=\"javascript:saveValue(this);\" href=\"#";
 				calendarContent += "modal1";
 			} else {
 				calendarContent += "<td class=\"td\"><a class=\"dayTileClosed modal-trigger\" href=\"#";
@@ -82,7 +101,7 @@ function fillHistory(){
 		index = todayDay;	
 	}
 	for(i=1; i<=index; i++){
-		historyContent += "<li><input type=\"button\" id=\""+i+"\" class=\"modalHistory modal-trigger\" href=\"#modal1\" value='";
+		historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistory modal-trigger\" href=\"#modal1\" value='";
 		var title = getTitle(i.toString());
 		historyContent += title;
 		historyContent += "\'/></li>";

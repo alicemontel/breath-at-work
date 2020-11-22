@@ -169,7 +169,7 @@ function getTitle(day){
 			title="Jour 16 - Du temps pour soi"; // Finir 1h plus tôt que d'habitude
 			break;
 		case "17" : // E, P
-			title="Jour 17 - Plus qu'un voyant vert sur Skype... "; //https://www.myhappyjob.fr/labsenteisme-moral-vous-connaissez/
+			title='Jour 17 - Un voyant pas si vert que ça... '; //https://www.myhappyjob.fr/labsenteisme-moral-vous-connaissez/
 			break;
 		case "18" : // C
 			title="Jour 18 - Team building"; // Participer à un event avec l'équipe
