@@ -102,8 +102,7 @@ function fillHistory(){
 	if (today >= xmas){
 		index = 25;
 	}
-	//if(todayMonth == 11){
-	if (todayMonth == 10){
+	if(todayMonth == 11){
 		index = todayDay;	
 	}
 	for(i=1; i<=index; i++){
