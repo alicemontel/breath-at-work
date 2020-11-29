@@ -1,4 +1,4 @@
-# breath-at-work
+# breathe-at-work
 
 Javascript, JQuery, HTML, Materialize et CSS only, première petite expérimentation d'une page web en un temps record. 
 
