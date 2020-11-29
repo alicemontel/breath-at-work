@@ -143,3 +143,20 @@ td {
 .psst{
 	font-size : 0.7em;
 }
+
+a:not(.menu){
+	color : #1D5E47 !important;
+	font-style:italic ;
+	text-decoration : underline;
+}
+
+q {
+	font-size : 2em;
+	font-style : italic; 
+	color : #DF2935;
+}
+.quote {
+	width : 80%;
+	margin : auto;
+	text-align : right;
+}
