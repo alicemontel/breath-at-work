@@ -26,8 +26,7 @@ function showDay(day){
 				"Vous avez évalué seulement 4 critères. Je les ai isolés car il me semble que ce sont les plus faciles à travailler, il est possible de mettre en place des actions "+
 				"concrètes pour les améliorer. Mais pourquoi s'arrêter en si bon chemin ? Si le sujet vous intéresse, je vous invite vivement à lire l'intégralité du livre (il est tout petit) pour approfondir les 4 critères cités et découvrir les 6 autres !";
 			break;
-		case "2" :
-		picture="images/chat.jpg";		
+		case "2" :		
 			content="truc 2";
 			break;
 		case "3" : 
