@@ -104,12 +104,15 @@ function fillHistory(){
 	}
 	if(todayMonth == 11){
 		index = todayDay;	
-	}
-	for(i=1; i<=index; i++){
-		historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistory modal-trigger\" href=\"#modal1\" value='";
-		var title = getTitle(i.toString());
-		historyContent += title;
-		historyContent += "\'/></li>";
+	
+		for(i=1; i<=index; i++){
+			historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistory modal-trigger\" href=\"#modal1\" value='";
+			var title = getTitle(i.toString());
+			historyContent += title;
+			historyContent += "\'/></li>";
+		}
+	} else {
+		historyContent += "Il n\'y a pas encore d'astuces disponibles, reviens demain !"
 	}
 	return historyContent+"</ul>" ; 
 }
