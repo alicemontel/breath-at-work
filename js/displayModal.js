@@ -3,8 +3,8 @@ function showDay(day){
 	var content = "";
 	switch(day){
 		case "1" :
-			content="La bienveillance en entreprise, ça vous parle ?<br/>" + 
-				"Pour commencer en douceur, je vous propose un petit exercice tiré du livre \"Les 10 commandements de la bienveillance en entreprise\", de Gaël Chatelain-Berry"+ 
+			content="La bienveillance en entreprise, ça vous parle ?<br/><br/>" + 
+				"Pour commencer en douceur, je vous propose un petit exercice inspiré du livre \"Les 10 commandements de la bienveillance en entreprise\", de Gaël Chatelain-Berry"+ 
 				" (je vous invite grandement à faire un tour sur <a target=\"blank\" href=\"https://www.gchatelain.com/\">son site</a>, une mine d'or !).<br/>"+
 				"Je vais vous demander de vous donner une note sur 10 concernant les critères suivants : "+
 				"<ol>"+
@@ -12,34 +12,32 @@ function showDay(day){
 				"<li> Votre <b>disponibilité</b> : vos collègues peuvent-ils vous solliciter de temps en temps ou avez-vous tendance à toujours les envoyer balader ? </li>"+
 				"<li> Votre <b>ponctualité</b> : êtes-vous à l'heure en réunion ? Lorsque ce n'est pas le cas, prévenez-vous vos collègues ? </li>"+
 				"<li> Votre <b>fiabilité</b> : tenez-vous parole ? Lorsque vous annoncez un délai, le respectez-vous ? </li>"+
-				"</ol><br/>"+
+				"</ol>"+
 				"Maintenant, je vais vous demander, pour chaque critère, de déterminer des actions à mettre en place pour améliorer votre score."+
-				"Si votre note est <7, vous devez identifier deux actions. S'il est >7 -BRAVO!- vous devez identifier 1 action.<br/>"+
+				" Si votre note est <7, vous devez identifier deux actions. S'il est >7 -BRAVO!- vous devez identifier 1 action.<br/>"+
 				"Allez, je ne suis pas vache, je vous donne quelques exemples : <br/>"+
 				"<ol>"+
 				"<li>Votre <b>politesse</b> : votre première interaction avec n'importe lequel de vos collègues doit être Bonjour ou dérivé, ça prend 2 secondes et ça fait plaisir ! </li>"+
-				"<li>Votre <b>disponibilité</b> : pour éviter d'être sollicité.e n'importe quand, établissez un système clair pour signaler que vous êtes ouverts aux sollicitations, ou non. Décidez également quel moment est le plus propice à être dérangé selon votre organisation : un peu tout le temps, à heures fixes, ...? </li>"+
+				"<li>Votre <b>disponibilité</b> : pour éviter d'être sollicité.e n'importe quand, établissez un système clair pour signaler que vous êtes ouvert.e.s aux sollicitations, ou non. Décidez également quel moment est le plus propice à être dérangé.e selon votre organisation : un peu tout le temps, à heures fixes, ...? </li>"+
 				"<li>Votre <b>ponctualité</b> : lorsque vous arrivez en retard et que tout le monde vous attend, c'est du temps perdu pour vos collègues... fixez-vous pour objectif au moins quelques fois de mettre un terme à une réunion qui s'éternise si vous en avez une autre juste derrière, quitte à planifier un nouveau point pour finir le sujet en cours.</li>"+
 				"<li>Votre <b>fiabilité</b> : on vous demande de fixer une deadline ? Ne vous précipitez pas en annonçant la date la plus proche, mieux vaut annoncer plus tard, quitte à avoir la bonne surprise de terminer en avance ! </li>"+
-				"</ol><br/>"+
+				"</ol>"+
+				"Votre mission désormais : mettre en oeuvre les actions identifiées au maximum !<br/>"+
 				"<h6>Pour aller + loin :</h6><br/>"+
 				"Vous avez évalué seulement 4 critères. Je les ai isolés car il me semble que ce sont les plus faciles à travailler, il est possible de mettre en place des actions "+
 				"concrètes pour les améliorer. Mais pourquoi s'arrêter en si bon chemin ? Si le sujet vous intéresse, je vous invite vivement à lire l'intégralité du livre (il est tout petit) pour approfondir les 4 critères cités et découvrir les 6 autres !";
 			break;
 		case "2" :		
-			content="truc 2";
+			content="On ne triche pas !";
 			break;
 		case "3" : 
-			picture="images/chat.jpg";
-			content="truc 3";
+			content="On ne triche pas !";
 			break;	
 		case "4" : 
-			picture="images/chat.jpg";
-			content="truc 4";
+			content="On ne triche pas !";
 			break;
 		case "5" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "6" :
 			picture="images/chat.jpg";
@@ -55,75 +53,58 @@ function showDay(day){
 			content+="<ul><li>Tâches importantes et urgentes : à faire soi-même, en premier</li><li>Tâches importantes mais peu urgentes : à planifier et à faire soi-même</li><li>Tâches urgentes mais peu importantes : c\'est l\'occasion d\'apprendre à déléguer !</li><li>Tâches peu urgentes et peu importantes : sont-elles vraiment pertinentes ? Pourriez-vous les abandonner ?</li></ul>";
 			break;
 		case "8" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "9" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "10" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "11" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "12" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "13" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "14" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "15" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "16" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "17" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "18" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "19" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "20" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "21" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "22" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "23" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "24" : 
-			picture="images/chat.jpg";
-			content="truc "+ day;
+			content="On ne triche pas !";
 			break;
 		case "25" : 
-			picture="images/chat.jpg";
+			
 			content="Aujourd'hui, pas d'astuce travail, c'est Noël, c'est férié ! </br> La QVT ça passe aussi et surtout par l'équilibre perso/pro, alors chérissez l'instant présent !";
 			break;						
 	}
