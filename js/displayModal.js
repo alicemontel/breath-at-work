@@ -23,12 +23,32 @@ function showDay(day){
 				"<li>Votre <b>fiabilité</b> : on vous demande de fixer une deadline ? Ne vous précipitez pas en annonçant la date la plus proche, mieux vaut annoncer plus tard, quitte à avoir la bonne surprise de terminer en avance ! </li>"+
 				"</ol>"+
 				"Votre mission désormais : mettre en oeuvre les actions identifiées au maximum !<br/>"+
-				"<h6>Pour aller + loin :</h6><br/>"+
+				"<h6>Pour aller + loin :</h6>"+
 				"Vous avez évalué seulement 4 critères. Je les ai isolés car il me semble que ce sont les plus faciles à travailler, il est possible de mettre en place des actions "+
 				"concrètes pour les améliorer. Mais pourquoi s'arrêter en si bon chemin ? Si le sujet vous intéresse, je vous invite vivement à lire l'intégralité du livre (il est tout petit) pour approfondir les 4 critères cités et découvrir les 6 autres !";
 			break;
 		case "2" :		
-			content="On ne triche pas !";
+			content="Aujourd'hui, ce n'est pas une simple astuce que je partage mais un droit ! Un droit inscrit dans le code du travail, rien que ça ! <br/>"+
+			"Saviez-vous que le <b>droit à la déconnexion</b> n'est apparu officiellement dans le Code du travail qu'en 2016, dans le cadre de la "+
+			"négociation obligatoire sur la qualité de vie au travail ? Il était temps, non ? <br/><br/>"+ 
+
+			"En 2016, 37% des actifs sont connectés hors temps de travail (étude Eléas, 2016). Pourtant, l'équilibre entre vie professionnelle et vie personnelle est essentiel."+ 
+			" Et même si vous n'avez que le boulot dans votre vie, dites-vous que faire une pause est essentiel pour être concentré, efficace ... bref, performant!"+ 
+			" Le travail est générateur de stress, c'est normal, mais il faut s'organiser du temps pour évacuer ce stress et se changer les idées. "+
+			"Ainsi, vous n'êtes pas tenus de consulter vos mails et messages hors de vos horaires de travail et encore moins le week-end ou lors de vos congés. <br/><br/> "+
+
+
+			"Alors je vous propose un double exercice <span class=\"psst\">(à appliquer aujourd'hui, mais aussi les jours suivants évidemment)</span>: <br/>"+
+			"<ol>"+ 
+			"<li>Pour <b>vous</b> : fixez-vous un horaire maximum de connexion. Admettons, 19h, très bien. À 18h45 donc, vous allez consulter une dernière fois votre boite mail, votre messagerie et répondre aux messages les plus urgents."+
+			" Attention, à 19h, on lève les mains, le reste sera envoyé le lendemain !"+
+			" Après cela, fermez votre ordinateur et rangez-le. Il suffit même de le déplacer à l'autre bout du bureau, trouvez un geste à faire qui indique à votre cerveau : \"J\'ai fini pour aujourd\'hui !\".</li>"+
+			"<li>Pour <b>les autres</b> : même conseil, différent point de vue. Arrêtez donc d'envoyer des mails à des horaires indécents ! Pour rappel, la plage de travail s'étend en principe de 8h à 19h. Si vous traitez ce sujet si tard, c'est qu'il peut probablement attendre le lendemain. Préparez donc votre mail si vous y tenez, mais rien ne vous empêche d'attendre le lendemain pour l'envoyer."+
+			"Pourquoi faire cela ? Parce que nous sommes ancrés dans une culture du présentéisme et qu'il faut, pour le bien de tous, briser cette idéologie. Être connecté à 21h, ça n'a rien à voir avec \"être performant\" ou \"investi\". Et imaginez vous à la place de vos collègues, si vous voyiez un mail, réussiriez-vous à l'ignorer complètement sans que cela ne vous trotte dans la tête ? Alors, n'imposez pas cela aux autres.</li>"+
+			"</ol>"+
+			"<h6>Pour aller + loin :</h6>"+
+			"Votre entreprise doit mettre à disposition sa charte sur le droit à la déconnexion. Elle décrit vos droits, de rares exceptions et détaille ce qui est attendu, ou non."+
+			" En aviez-vous conscience ? L\'avez-vous déjà lue ? C\'est peut-être l\'occasion d'y jeter un coup d\oeil !";
 			break;
 		case "3" : 
 			content="On ne triche pas !";
