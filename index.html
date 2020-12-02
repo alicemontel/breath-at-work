@@ -33,25 +33,21 @@ window.onload = function() {
 	</nav>
 	<!-- Corps de la page -->
 	<h1 id="daysXmas"></h1>
+	<!-- Dropdown Trigger -->
+	<a class='dropdown-trigger btn historyBtn' href='#' data-target='history'>+</a>
 	<div class="calendar">
 		<table class="xmasDay" id="xmasday"> 
-			<tr>
-				<td class="td"><a class="dayTileOpened modal-trigger" href="#modal1">25</a></td>
-			</tr>
 		</table>
 		<table class="daysBfore" id="calendar">		
 		</table>
 	</div>
-	<!-- Dropdown Trigger -->
-	<a class='dropdown-trigger btn historyBtn' href='#' data-target='history'>+</a>
-	
+
 	<!-- Modal Structure -->
 	<div id="modal1" class=" modalDay modal modal-fixed-footer">
 		<div class="modal-content">
 			<h4 id="titleModal"></h4>
 			<div id="contentModal"></div>
-			<img id="pictureModal" />
-			<div id="gofurther"></div>
+			<!--<img id="pictureModal" />-->
 		</div>
 		<div class="modal-footer">
 			<a href="#!" class="modal-close waves-effect waves-green btn-flat"> A demain ! </a>

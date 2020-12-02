@@ -41,18 +41,18 @@ function shuffle(array) {
 
 //Save the value function - save it to localStorage as (ID, VALUE)
 function saveValue(elem){
-    var id = "thisnow";  // get the sender's id to save it . 
+    var id = elem.innerHTML;  // get the sender's id to save it . 
     var val = "open"; // get the value. 
     localStorage.setItem(id, val);// Every time user writing something, the localStorage's value will override .
 	elem.className="dayTileOpened modal-trigger";
 }
 
 //get the saved value function - return the value of "v" from localStorage. 
-function getSavedValue(){
-    if (!localStorage.getItem("thisnow")) {
+function getSavedValue(day){
+    if (!localStorage.getItem(day)) {
         return "closed";// You can change this to your defualt value. 
     }
-    return localStorage.getItem("thisnow");
+    return localStorage.getItem(day);
 }
 
 function fillCalendar(){
@@ -63,15 +63,21 @@ function fillCalendar(){
 	let arr = Array.from({length: 24}, (_, i) => i + 1);
 	shuffle(arr);
 	var calendarContent ="";
+	//xmas
+	if(todayMonth==11 && todayDay==25 && getSavedValue(todayDay)=="open"){
+		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileOpened modal-trigger\" onclick=\"javascript:saveValue(this);\" href=\"#modal1\">25</a></td></tr>";
+	} else {
+		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileClosed modal-trigger\" href=\"#modalClosed\">25</a></td></tr>";			
+	}
 	for(i = 0; i < 4; i++){
       	calendarContent+="<tr>";
 		for(j = 0; j < 6; j++){
-      		var day = arr[j+i*6];        	
-			//if( todayMonth == 11 && day<=todayDay || today >= xmas){
-			if(day<todayDay || (day==todayDay && getSavedValue()=="open")){
+      		var day = arr[j+i*6]; 
+			//Before Xmas			
+			if(todayMonth==11 && (day<todayDay || (day==todayDay && getSavedValue(day)=="open"))){
 				calendarContent += "<td class=\"td\"><a class=\"dayTileOpened modal-trigger\" href=\"#";
 				calendarContent += "modal1";
-			} else if(day==todayDay && getSavedValue()=="closed"){
+			} else if(day==todayDay && getSavedValue(day)=="closed"){
 				calendarContent += "<td class=\"td\"><a class=\"dayTileClosed modal-trigger\" onclick=\"javascript:saveValue(this);\" href=\"#";
 				calendarContent += "modal1";
 			} else {

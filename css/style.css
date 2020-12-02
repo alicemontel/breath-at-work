@@ -19,6 +19,20 @@ h1 {
 	font-family : monospace, serif !important;
 }
 
+h4 {
+	color : #DF2935;
+}
+
+h6{
+	color : #DF2935;
+	font-weight : bold !important;
+}
+
+h5 {
+	font-weight : bold !important; 
+	padding-left : 5%;
+}
+
 .btn {
 	background-color : #1D5E47 !important;
 	float : right;
@@ -113,7 +127,7 @@ td {
 	border-radius : 10px !important;
 }
 
-#contactContent, #srcContent, #credit{
+#contactContent, #srcContent, #credit, #homeContent{
 	text-align : justify;
 	padding-left : 10%;
 	padding-right :20%;
