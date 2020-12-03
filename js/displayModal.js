@@ -51,7 +51,22 @@ function showDay(day){
 			" En aviez-vous conscience ? L\'avez-vous déjà lue ? C\'est peut-être l\'occasion d'y jeter un coup d\oeil !";
 			break;
 		case "3" : 
-			content="On ne triche pas !";
+			content="Le plus simple : faire une pause toutes les 2h. Alors on ne parle pas de la pause de 2h à scroller sur Twitter, n'est-ce pas ? "+
+			"Mais plutôt la pause de 8 minutes avec au programme : "+
+			"<ol>"+
+			"<li>Un verre d'eau au moment de la pause et remplir votre verre ou votre bouteille pour les 2h prochaines heures.</li>"+
+			"<li>Quelques étirements : ciblez en priorité le dos et le cou, puis les jambes et si vous en ressentez le besoin les bras.</li>"+
+			"<li>Marcher : pas facile en télétravail me direz-vous, alors il ne s\'agit pas de faire 3km, mais au moins de quitter sa chaise et de se dégourdir les jambes, idéalement pendant 5 minutes"+
+			"<li>Un execice de respiration, au choix selon votre ressenti et les tâches qui vous attendent : plutôt dynamique, anti-stress, pour se concentrer, il y a des exercices pour tout!"+
+			"</ol>"+
+			"<h6>Pour aller + loin :</h6>"+
+			"Si vous ne faites pas partie des gens high-tech équipés d\'une montre connectée qui vous rappelle tout cela, il existe plusieurs petites applications pour vous aider à instaurer des rituels bons pour votre santé :"+
+			"<ol>"+
+			"<li> Fabulous </li>"+
+			"<li> Plant Nanny </li>"+
+			"<li> Et si vous n'êtes pas très applis : une simple alarme toutes les 2h fait très bien l'affaire ! </li>"+
+			"</ol>"+
+			"Vous pouvez également trouver de nombreux exercices de respiration sur youtube, tout simplement.";
 			break;	
 		case "4" : 
 			content="On ne triche pas !";
