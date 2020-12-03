@@ -70,7 +70,7 @@ function showDay(day){
 			"Si vous ne faites pas partie des gens high-tech équipés d\'une montre connectée qui vous rappelle tout cela, il existe plusieurs petites applications pour vous aider à instaurer des rituels bons pour votre santé, notamment :"+
 			"<ol>"+
 			"<li> <a href=\"https://www.thefabulous.co/\" target=\"blank\">Fabulous </a>: l'application vous permet par exemple d\'établir des routines du matin, après-midi et soir et vous propose de nombreux exercices notamment de respiration !</li>"+
-			"<li> <a href=\"https://plantnanny.app/\" target=\"blank\">Plant Nanny </a>: l'application trop mignonne pour vous inciter à bien vous hydrater. À chaque fois que vous buvez, donner à boire à votre plante pour la voir grandir ! </li>"+
+			"<li> <a href=\"https://plantnanny.app/\" target=\"blank\">Plant Nanny </a>: l'application trop mignonne pour vous inciter à bien vous hydrater. À chaque fois que vous buvez, donnez à boire à votre plante pour la voir grandir ! </li>"+
 			"<li> Et si vous n'êtes pas très applis : une simple alarme toutes les 2h fait très bien l'affaire ! </li>"+
 			"</ol>"+
 			"Il en existe plein d'autres, celle-ci sont seulement celles que je connais le mieux. À vous de creuser pour trouver celle qui vous plaît :) <br/>"+
