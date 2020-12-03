@@ -51,22 +51,30 @@ function showDay(day){
 			" En aviez-vous conscience ? L\'avez-vous déjà lue ? C\'est peut-être l\'occasion d'y jeter un coup d\oeil !";
 			break;
 		case "3" : 
-			content="Le plus simple : faire une pause toutes les 2h. Alors on ne parle pas de la pause de 2h à scroller sur Twitter, n'est-ce pas ? "+
-			"Mais plutôt la pause de 8 minutes avec au programme : "+
+			content="<img id=\"flower\" src=\"./img/flowerbox_pixabay.png\"/> "+
+			"Une plante, ça bouge, ça boit, ça respire... un peu comme un être humain en fait ! <br/><br/>"+
+			"Rester assis.e toute la journée, ou pire assis.e devant un écran, c'est bien un peu, mais ce n'est pas durable. "+ 
+			"Pensez à votre dos, vos yeux, votre corps tout entier qui vous maudit chaque seconde que vous passez mal installé.e. "+
+			"Surtout en ces temps de télétravail massif et imposé, il est plus que jamais essentiel de maintenir un minimum d\'activité et de prendre soin de soi. "+
+			"Pour cela, je vous propose un petit exercice tout simple : <b>faire une pause toutes les 2h </b> <span class=\"psst\">(ce qui équivaut donc à la louche à une pause le matin puis une voire deux l'après-midi, je sais que vous pouvez le faire!)</span>. Alors on ne parle pas de la pause de 45 minutes à scroller sur Twitter, n\'est-ce pas ? <br/>"+
+			"Mais plutôt la <b>pause de 8 minutes</b> avec au programme <span class=\"psst\">(à titre d\'exemple, à vous de trouver la formule qui vous convient)</span>: "+
 			"<ol>"+
-			"<li>Un verre d'eau au moment de la pause et remplir votre verre ou votre bouteille pour les 2h prochaines heures.</li>"+
-			"<li>Quelques étirements : ciblez en priorité le dos et le cou, puis les jambes et si vous en ressentez le besoin les bras.</li>"+
-			"<li>Marcher : pas facile en télétravail me direz-vous, alors il ne s\'agit pas de faire 3km, mais au moins de quitter sa chaise et de se dégourdir les jambes, idéalement pendant 5 minutes"+
+			"<li>Un verre d'eau au moment de la pause et remplir votre verre ou votre bouteille pour les deux prochaines heures.</li>"+
+			"<li>Quelques étirements : ciblez en priorité le dos et le cou, puis les jambes et si vous en ressentez le besoin, les bras.</li>"+
+			"<li>Marcher : pas facile en télétravail me direz-vous, alors il ne s\'agit pas de faire 3km, mais au moins de quitter sa chaise et de se dégourdir les jambes, idéalement pendant 5 minutes sans interruption."+
 			"<li>Un execice de respiration, au choix selon votre ressenti et les tâches qui vous attendent : plutôt dynamique, anti-stress, pour se concentrer, il y a des exercices pour tout!"+
 			"</ol>"+
 			"<h6>Pour aller + loin :</h6>"+
-			"Si vous ne faites pas partie des gens high-tech équipés d\'une montre connectée qui vous rappelle tout cela, il existe plusieurs petites applications pour vous aider à instaurer des rituels bons pour votre santé :"+
+			"Ces recommandations sont valables pour les petites pauses au cours de la journée mais sont aussi très appropriées pour commencer la journée ou se préparer à reprendre le travail après la pause déjeuner ! "+
+			"Vous remarquerez également que vous devez remplir une bouteille d\'eau, le but est donc de la boire, cela va sans dire. Pensez à vous hydrater tout au long de la journée. <br/>"+
+			"Si vous ne faites pas partie des gens high-tech équipés d\'une montre connectée qui vous rappelle tout cela, il existe plusieurs petites applications pour vous aider à instaurer des rituels bons pour votre santé, notamment :"+
 			"<ol>"+
-			"<li> Fabulous </li>"+
-			"<li> Plant Nanny </li>"+
+			"<li> <a href=\"https://www.thefabulous.co/\" target=\"blank\">Fabulous </a>: l'application vous permet par exemple d\'établir des routines du matin, après-midi et soir et vous propose de nombreux exercices notamment de respiration !</li>"+
+			"<li> <a href=\"https://plantnanny.app/\" target=\"blank\">Plant Nanny </a>: l'application trop mignonne pour vous inciter à bien vous hydrater. À chaque fois que vous buvez, donner à boire à votre plante pour la voir grandir ! </li>"+
 			"<li> Et si vous n'êtes pas très applis : une simple alarme toutes les 2h fait très bien l'affaire ! </li>"+
 			"</ol>"+
-			"Vous pouvez également trouver de nombreux exercices de respiration sur youtube, tout simplement.";
+			"Il en existe plein d'autres, celle-ci sont seulement celles que je connais le mieux. À vous de creuser pour trouver celle qui vous plaît :) <br/>"+
+			"Vous pouvez également trouver de nombreux exercices de respiration, du yoga, des étirements... sur Youtube, tout simplement !";
 			break;	
 		case "4" : 
 			content="On ne triche pas !";

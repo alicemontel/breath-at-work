@@ -160,3 +160,9 @@ q {
 	margin : auto;
 	text-align : right;
 }
+
+#flower {
+	max-width : 100px;
+	max-height : 100px;
+	float : right;
+}
