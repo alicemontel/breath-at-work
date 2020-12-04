@@ -77,7 +77,34 @@ function showDay(day){
 			"Vous pouvez également trouver de nombreux exercices de respiration, du yoga, des étirements... sur Youtube, tout simplement !";
 			break;	
 		case "4" : 
-			content="On ne triche pas !";
+			content="<img id=\"list\" src=\"./img/checklist_pixabay.png\"/> Aujourd'hui c'est vendredi, bientôt le week-end ! <br/>"+
+			"Alors pour tirer le maximum de cette journée et partir en week-end serein.e, je vous invite à découvrir le monde fabuleux des todo list. <br/><br/>"+
+			"L\'exercice du jour : <b>faire une todo list</b> de ce que vous voulez absolument faire aujourd\'hui, et surtout que vous pouvez faire dans le temps imparti. <br/>"+
+			"Le challenge sera de réussir à <b>barrer tous les items</b> de cette liste et de <b>n'en rajouter aucun</b> ! <br/>"+
+			"Alors bien sûr, si on vous pose une question, n\'envoyez pas votre interlocuteur balader (vous savez, la bienveillance, la disponibilité, ça vous rappelle quelque chose ?!). "+
+			"Vous pouvez rester disponible, tout en fixant une limite pour ne pas mettre en danger votre propre programme de la journée. <br/> "+
+			"Quelques astuces pour tirer le meilleur de cet exercice : "+
+			"<ol>"+
+			"<li> Puisque vous serez potentiellement (probalement !) dérangé.e, ne surchagez pas votre journée, vous pouvez prévoir un certain temps dédié à aider vos collègues et répondre aux questions. "+
+			"Cela veut donc aussi dire : savoir évaluer le temps nécessaire pour les sollicitations externes. Si vous voyez que cela va prendre trop de temps, expliquez gentiment que ça attendra lundi, tout simplement. "+
+			"Ainsi, ce n'est pas un \"non\", c\'est un \"oui, mais quand je pourrai me concentrer sur le sujet correctement\", c\'est bien mieux ! "+ 
+			"<li> Soyez <b>réaliste</b>. Il y a probablement un millier de choses que vous aimeriez boucler aujourd\'hui mais il est hors de question de finir votre journée à 21h ! "+
+			"Alors, essayez de prioriser, selon votre préférence : le plus urgent seulement, un maximum de petites tâches pour avoir la satisfaction de terminer plein de sujets, un peu des deux... "+
+			"À vous de trouver la stratégie qui vous convient. "+
+			"<li> Notez même les petites choses, le moindre petit mail à envoyer. Ces petites choses rapides font un grand bien, on tire une certaine satisfaction à rayer "+
+			"beaucoup de lignes sur une todo list, c\'est impressionnant. </li> "+
+			"<li> Si vous finissez en avance, tant mieux, ne rajoutez rien pour aujourd\'hui et <b>savourez votre efficacité</b>. La prochaine fois peut-être pourrez-vous rajouter une tâche en plus.</li>"+
+			"<li> Si vous n'avez pas fini à l\'heure limite, disons 19h grand maximum, tant pis. Notez dans un coin là où vous en êtes et fermez tout. Vous saurez pour la prochaine fois que certaines choses prennent plus de temps qu'il n'y parait.</li>"+
+			"<li> Vous pouvez noter vos pauses ou des choses à faire pour vous détendre dans la journée au milieu de vos tâches professionnelles. Vous réduisez ainsi le risque de vous laisser emporter par le rythme du boulot et rester toute "+
+			"la journée sur votre chaise sans lever le nez de l\'écran.</li> "+
+			"</ol>"+ 
+			"<h6>Pour aller + loin :</h6>"+ 
+			"Les todo list, ça marche aussi en dehors du travail ! <br/>"+
+			"Aller chercher le pain, commander les croquettes pour le chat, passer la serpillère dans la cuisine, imperméabiliser ses bottes, ... tout y passe !<br/>"+ 
+			"Cela dit, attention à bien définir la portée de votre liste. Si c'est sur un jour ce n\'est pas comme une semaine, sachez être raisonnable et ne pas surcharger votre journée. "+
+			"Le but est de pouvoir se dire : \"J\'ai été productif.ve, mais j\'ai encore du temps pour moi !\" "+
+			"<br/><br/>"+
+			"<b>PS :</b> le calendrier continue le week-end, mais promis, on ne parle pas travail, seulement de quoi passer un bon week-end pour attaquer la suite en pleine forme ! ";
 			break;
 		case "5" : 
 			content="On ne triche pas !";
@@ -168,8 +195,8 @@ function getTitle(day){
 		case "3" : // P
 			title="Jour 3 - Tous des plantes vertes !"; // s'hydrater et rester en mouvement
 			break;	
-		case "4" : // E
-			title="Jour 4 - Le mot magique"; // la gratitude (les compliments Teams ?)
+		case "4" : // E, P
+			title="Jour 4 - Ni plus, ni moins"; // Le matin faire une todo list (realisable) et faire ni plus ni moins que ce qui est ecrit dessus
 			break;
 		//WK
 		case "5" : // P
@@ -189,7 +216,7 @@ function getTitle(day){
 			title="Jour 9 - Il faut que tu respires"; // exercice de respiration
 			break;
 		case "10" : // E, P
-			title="Jour 10 - Ni plus, ni moins"; // Le matin faire une todo list (realisable) et faire ni plus ni moins que ce qui est ecrit dessus
+			title="Jour 10 - Le mot magique"; // la gratitude (les compliments Teams ?)
 			break;
 		case "11" : // E, P, C
 			title="Jour 11 - Ouvrez grand les oreilles"; // Podcast happy work 
