@@ -107,7 +107,32 @@ function showDay(day){
 			"<b>PS :</b> le calendrier continue le week-end, mais promis, on ne parle pas travail, seulement de quoi passer un bon week-end pour attaquer la suite en pleine forme ! ";
 			break;
 		case "5" : 
-			content="On ne triche pas !";
+			content="Comme promis, aujourd'hui, on parle maison, bien-être, rapport à soi uniquement ! <br/><br/>"+
+			"Cependant, gardons le cap vers la productivité et la satisfaction qui en découle. <br/>"+
+			"L\'objectif aujourd'hui est de <b>faire du tri, du vide</b>, de remettre toutes ces choses qui trainent à leur place. <br/>"+
+			"Pourquoi ? <br/>"+
+			"Pour être en mouvement, malgré le confinement et le froid. "+
+			"Mais aussi parce qu\'en faisant de la place chez soi, on fait de la place dans sa tête. Plusieurs études ont montré que faire le ménage agit comme un antistress : en s’activant, le cerveau libère de l\’endorphine, l\'hormone du bien-être, rien que ça ! "+
+			"C\'est aussi l\'occasion de rayer de votre todo list mentale toutes ces petites choses qui vous tracassent au quotidien. De quoi mieux apprécier votre week-end et attaquer la semaine qui suit plus serein.e. "+
+			"Et si vous n\'êtes toujours pas convaincu, dites-vous qu\'il faudra bien le faire un jour où l\'autre, n\'est-ce pas ? La procrastination a du bon <span class=\"psst\">(si si, parfois, je vous assure !)</span>, mais pas pour tout, pas tout le temps. Alors aujourd\'hui, c\'est décidé, il faut s\'activer ! "+
+			"<br/><br/>"+
+			"OK, mais comment on s'y prend ? <br/>"+
+			"On peut toujours trouver des choses à faire mais il faut savoir se raisonner. Pour une première, je vous propose de vous accorder 2h à 3h consacrées exclusivement au rangement et au ménage. "+ 
+			"Qu\'avez-vous le temps de faire en deux heures ? Fixez-vous un <b>objectif réaliste</b>, c\'est essentiel pour se motiver d\'une part et pour apprécier pleinement la satisfaction une fois que tout est fait. "+
+			"Quelques exemples rapides et qui font du bien :"+
+			"<ol>"+
+			"<li> Pas de vaisselle dehors : ni dans l\'évier, ni sur la paillasse, rangez-la à sa place. Même ce verre qui traine à côté de votre PC ou sur la table de nuit, lavez et rangez tout !</li>"+
+			"<li> Descendre les poubelles, le recyclage, le verre et pour les chanceux qui peuvent, le compost. </li>"+
+			"<li> Etre à jour sur le linge sale : c\'est la machine qui travaille, pas vous, et ça prend 5 minutes à lancer. </li>"+
+			"<li> Faire le lit, ça devrait même être l\'item numéro 1 sur cette liste, faire son lit tous les matins, c\'est un très bon réflexe : d\'une part l\'espace est mieux ranger, mais ça réduit aussi l\'envie d\'y retourner illico.</li>"+
+			"<li> Trier le courrier, mettre au recyclage toutes ces pubs qui ne vous intéressent pas. </li>"+
+			"<li> Nettoyer la salle de bain : parce que c\'est quand même une pièce dans laquelle vous passez a priori tous les jours et qu\'il est important de garder propre, alors si vous savez que vous n\'aurez pas le temps de tout faire, autant commencer par là. </li>"+
+			"</ol>"+
+			"<span class=\"psst\"> Vous avez donc ici mon programme du week-end... :) </span>"+
+			"<h6>Pour aller + loin : </h6>"+
+			"Rien de tel pour compléter cette journée dynamique qu\'une petite sortie. Vous avez réussi à sortir du lit, à être efficace. Profitez-en pour mettre le nez dehors. "+
+			"Comme ça, en rentrant, vous pourrez savourer le fait de ne rien faire tout en sachant que vous avez déjà fait beaucoup. Pas de \"oh, il faudrait que je fasse...\", votre objectif est atteint, désormais : repos !";
+			
 			break;
 		case "6" :
 			picture="images/chat.jpg";
@@ -174,7 +199,6 @@ function showDay(day){
 			content="On ne triche pas !";
 			break;
 		case "25" : 
-			
 			content="Aujourd'hui, pas d'astuce travail, c'est Noël, c'est férié ! </br> La QVT ça passe aussi et surtout par l'équilibre perso/pro, alors chérissez l'instant présent !";
 			break;						
 	}
@@ -200,7 +224,7 @@ function getTitle(day){
 			break;
 		//WK
 		case "5" : // P
-			title="Jour 5 - 1km à pieds ..."; // faire 10 000 pas
+			title="Jour 5 - Nettoyeeer, balayeeeer ( <a href=\"https://www.youtube.com/watch?v=vyc3Tjxr4X0\" target=\"blank\">en chanson</a> !)"; //faire du tri chez soi, préparer de vieux vêtements à donner/vendre, des livres, jeter des papiers 
 			break;
 		//WK
 		case "6" : // P 
@@ -227,7 +251,7 @@ function getTitle(day){
 			break;
 		//WK
 		case "13" : // P
-			title="Jour 13 - Tourner dans le vide"; //faire du tri chez soi, préparer de vieux vêtements à donner/vendre, des livres, jeter des papiers 
+			title="Jour 13 - 1km à pieds ..."; // faire 10 000 pas
 			break;
 		case "14" : // P, C
 			title="Jour 14 - Petit exercice de concentration "; // Pas de mail, notifications pendant X heures ou minutes
