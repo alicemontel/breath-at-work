@@ -20,6 +20,18 @@ window.onload = function() {
    document.getElementById("history").innerHTML=fillHistory();
 } 
 
+var now = new Date();
+var night = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate()+ 1, // the next day, ...
+    0, 0, 0 // ...at 00:00:00 hours
+);
+var msTillMidnight = night.getTime() - now.getTime();
+if(msTillMidnight > 0){ // jamais trop sure
+	setTimeout('window.location.reload(true)', msTillMidnight);
+}
+
 </script>
 <body id="bodyCalendar">
 	<nav>
@@ -37,7 +49,7 @@ window.onload = function() {
 	<!-- Dropdown Trigger -->
 	<a class='dropdown-trigger btn historyBtn menu' title="Historique" href='#' data-target='history'>+</a>
 	<div class="calendar">
-		<table class="xmasDay" id="xmasday"> 
+		<table class="xmasday" id="xmasday"> 
 		</table>
 		<table class="daysBfore" id="calendar">		
 		</table>

@@ -4,7 +4,8 @@
 	$('.dropdown-trigger').dropdown();
 	$('.dropdown-content').on('onclick', function(event) {
 		event.stopPropagation();
-		});	
+		});
+	//setInterval(function(){ reload_page(); },1000);
   });
 
 $(document).on('click', '.dayTileOpened', function(e){
@@ -16,6 +17,12 @@ $(document).on('click', '.modalHistory', function(e){
 	var day = e.target.id;
 	showDay(day);
 });
+
+ //function reload_page()
+ //{
+ //   window.location.reload(true);
+	//console.log("truc");
+ //}
 
 function getBforeXmas(){
 	today=new Date();
