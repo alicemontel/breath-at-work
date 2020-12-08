@@ -180,7 +180,27 @@ function showDay(day){
 			"</ol>";
 			break;
 		case "8" : 
-			content="On ne triche pas !";
+			content="<img id=\"laptop\" src=\"./img/laptop-sara_torda_pixabay.png\"/>Que diriez-vous d\'un objectif productivité ? <br/><br/>"+
+			"Nous évoluons dans un monde où l\'on est joignable partout, tout le temps et les autres s\'attendent donc à ce que l\'on réponde immédiatement. "+
+			"Nous sommes sur-sollicité·e·s, par nos collègues, nos ami·e·s, les réseaux sociaux, les pubs,... Je ne vous apprends rien, cela déconcentre et nous fait perdre un temps précieux. <br/> "+
+			"<b>Le challenge du jour</b> : <b>2 fois</b> dans la journée, ménagez-vous une plage d\'<b>1 heure</b> pendant laquelle vous n\'aurez <b>aucune distraction</b>.<br/>"+
+			"Pas de téléphone, vous ne consulterez pas vos mails, vous ne répondrez aux collègues qu\'à la fin du créneau. "+
+			"Si vous avez un poste critique qui nécessite absoooolument d\'être joignable à la minute, imposez-vous une limite, par exemple, vous ne consulterez que les messages provenant de votre chef·fe de projet ou responsable. "+
+			"Profitez donc de ces créneaux pour enfin avancer sur ce sujet compliqué qui traine parce qu\'on réclame toujours votre aide ailleurs ! <br/><br/>"+
+			"Pour rappel, la concentration baisse après de 45 minutes. En fixant des objectifs d'une heure, on est déjà au-delà. Inutile donc de vous bloquer des demi-journées complètes de productivité sans dérangement. "+
+			"Il y a de fortes chances que si la distraction ne vient pas à vous, vous alliez la chercher vous-même... Mieux vaut donc faire plusieurs fois moins longtemps que l'opposé.<br/>"+
+			"Si vous souhaitez d\'autres astuces pour booster votre concentration et réduire les distractions, voici un article fort intéressant sur everlaab <span class=\"psst\">(J'essaie de diversifier les sources)</span> : <a target=\"blank\" href=\"https://everlaab.com/se-concentrer/\">10 techniques prouvées pour se concentrer (et exploser ses résultats)</a><br/>"+ 
+			"<h6>Pour aller + loin :</h6>"+
+			"Il s\'agit là d\'une anecdote qui se prête à la fois au sujet du présentéisme et de la sur-sollicitation, particulièrement en situation de télétravail comme le vit la majorité d\'entre nous.<br/>"+
+			"L\'autre jour, je discutais avec un collègue. Je n\'ai pas pu m\'empêcher de remarquer que son statut était toujours \"absent\" sur le canal de communication interne. "+
+			"Il m\'a donné la meilleure explication qui soit, dont ressortent les avantages suivants : "+
+			"<ol>"+
+			"<li>Impossible de surveiller ses horaires en se basant sur son statut de connexion, forçant ainsi un management par la confiance, tout en étant en réalité totalement joignable.</li>"+
+			"<li>Comme il est impossible de savoir si la personne est vraiment là, les personnes qui veulent juste poser une question alors que la réponse est simple à trouver ailleurs auront plus tendance à chercher eux-mêmes "+
+			"puisqu\'aucune garantie du délai de réponse. Cependant, la personne qui a vraiment besoin d\'une réponse enverra son message, quel que soit le statut et le destinataire verra le message dès qu'il le pourra. En bref, cela a un effet de filtre sur l\'importance des messages reçus.</li></ol>"+
+			"Je n\'ai très personnellement pas encore osé le faire toute la journée, seulement à partir d\'une certaine heure, mais je trouve cette pratique tout à fait géniale ! Qu'en pensez-vous ?"+
+			"<br/><br/>"+
+			"Bonne journée !";
 			break;
 		case "9" : 
 			content="On ne triche pas !";
@@ -264,14 +284,14 @@ function getTitle(day){
 		case "7" : // E, P
 			title="Jour 7 - Un voyant pas si vert que ça... "; //https://www.myhappyjob.fr/labsenteisme-moral-vous-connaissez/
 			break;
-		case "8" : // P
-			title="Jour 8 - Rituels"; // Equilibre pro/perso passe par les rituels, comme pour la routine avant de dormir
+		case "8" : // P, C
+			title="Jour 8 - Petit exercice de concentration "; // Pas de mail, notifications pendant X heures ou minutes
 			break;
 		case "9" : // P 
 			title="Jour 9 - Il faut que tu respires"; // exercice de respiration
 			break;
-		case "10" : // E, P
-			title="Jour 10 - Le mot magique"; // la gratitude (les compliments Teams ?)
+		case "10" : // C
+			title="Jour 10 - Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
 			break;
 		case "11" : // E, P, C
 			title="Jour 11 - Ouvrez grand les oreilles"; // Podcast happy work 
@@ -284,11 +304,11 @@ function getTitle(day){
 		case "13" : // P
 			title="Jour 13 - Pas plus de 5 minutes !"; // Si un probleme n'aura plus d'importance dans 5 ans, n'y passe pas plus de 5 minutes
 			break;
-		case "14" : // P, C
-			title="Jour 14 - Petit exercice de concentration "; // Pas de mail, notifications pendant X heures ou minutes
+		case "14" : // P
+			title="Jour 14 - Rituels"; // Equilibre pro/perso passe par les rituels, comme pour la routine avant de dormir
 			break;
-		case "15" : // C
-			title="Jour 15 - Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
+		case "15" : // E,P
+			title="Jour 15 - Le mot magique"; // la gratitude (les compliments Teams ?)
 			break;
 		case "16" : // P
 			title="Jour 16 - Du temps pour soi"; // Finir 1h plus tôt que d'habitude
