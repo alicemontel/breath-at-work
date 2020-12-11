@@ -248,7 +248,20 @@ function showDay(day){
 			"<h6>Bonne journée !</h6>";
 			break;
 		case "11" : 
-			content="On ne triche pas !";
+			content="<img id=\"unicorn\" src=\"./img/unicorn_arousalandpublicdomain_pixabay.png\"/>Ce soir c\'est le week-end !! <span class=\"psst\">A priori, désolée à celles et ceux qui travaillent demain, courage !</span> <br/>"+
+			"Pour fêter ça, je vous invite à réfléchir sur un sujet pas très fun du tout... Mais le but est justement de le dédramatiser et réaliser qu\'en fait, la vie est belle ! "+
+			"Aujourd\'hui donc, je vous propose d\'aborder la thématique du <b>droit à l\'erreur</b>. <br/><br/>"+
+			"Oui, oui, un droit, peut-être même un devoir ! Pas convaincu·e ? Premier exemple donc : lorsque vous avez appris à marcher, n\'êtes-vous jamais tombé·e ? Vous voyez où je veux en venir j\'en suis sûre.<br/>"+
+			"Les erreurs, c\'est formateur, elles vous permettent tout simplement d\'évoluer et de vous améliorer ! <br/> Aujourd\'hui, pas trop de blabla, je vous partage plutôt un contenu qui saura vous convaincre. "+
+			"C\'était justement la thématique d\'un épisode récent du podcast Happy Work de Gaël Chatelain-Berry : <a href=\"https://www.youtube.com/watch?v=ZabsvkPRLh0\" target=\"blank\"> Osez vous tromper. Aimez vos échecs</a>. Bonne écoute !<br/><br/>"+
+			"Alors ok, il faut accepter nos erreurs et voir le positif, mais dans les faits comment ça se passe ? Quelle attitude adopter face à ses petites bourdes ? "+
+			"Je vous partage alors un article de Welcome to the Jungle : <a href=\"https://www.welcometothejungle.com/fr/articles/erreur-travail-reagir-conseils\" target=\"blank\">\"J\'ai fait une erreur au travail : Comment gérer ?\"</a> "+
+			"pour vous aider à adopter la meilleure attitude face à vos bêtises.<br/><br/>"+
+			"<h6>Pour aller + loin : </h6>"+
+			"Petit exercice maintenant : faites la liste des erreurs que vous avez pu faire cette année. Maintenant, pour chaque erreur, forcez-vous à trouver un impact positif à cette erreur, il y en a forcément un même si vous ne l\'avez pas vu sur le coup ! <br/> Alors vous voyez, au final, heureusement que vous en avez fait des bourdes, non ? :) "+
+			"<br/><br/>"+
+			"<h6>Bonne journée !</h6>"+
+			"N\'oubliez pas, le calendrier continue même le week-end !";
 			break;
 		case "12" : 
 			content="On ne triche pas !";
@@ -332,8 +345,8 @@ function getTitle(day){
 		case "10" : // E, P
 			title="Jour 10 - Une histoire de priorité"; // le diagramme urgent/important, le challenge en + : "dire non à un truc ce jour"
 			break;
-		case "11" : // E, P, C
-			title="Jour 11 - Ouvrez grand les oreilles"; // Podcast happy work 
+		case "11" : // E, P
+			title="Jour 11 - Cultivez vos erreurs !"; // Le droit a l'erreur, podcast Happy Work, lien
 			break;
 		//WK
 		case "12" : // P
