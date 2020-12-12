@@ -264,7 +264,14 @@ function showDay(day){
 			"N\'oubliez pas, le calendrier continue même le week-end !";
 			break;
 		case "12" : 
-			content="On ne triche pas !";
+			content="Aujourd\'hui non plus, pas trop de blabla. Vous devez être bien occupé·e à l\'approche des fêtes de fin d\'année... Mais je vous propose de vous poser 5 minutes pour prendre une décison qui vous fera beaucoup de bien ! <br/>"+
+			"À partir de maintenant, face à chaque difficulté, chaque échec <span class=\"psst\"> (en tout cas évènement perçu comme tel, car je suis convaincue que l\'échec n\'existe pas)</span>, chaque déception, <b>si vous savez que la situation n\'aura plus d\'importance dans 5 ans, ne ruminez pas plus de 5 minutes !</b><br/><br/>"+
+			"Plus facile à dire qu\'à faire, oui oui, je sais bien. Mais c\'est tellement libérateur. À quoi bon se torturer l\'esprit sur des choses futiles ? Agissez sur ce que vous pouvez contrôler : le présent. Ce serait dommage de gâcher l\'instant alors que vous savez que ça va passer. Autant que ça passe tout de suite, non ?"+
+			" Pensez aussi que ruminer ne fera pas avancer les choses. C\'est rarement dans cet état d\'esprit qu\'on va trouver des solutions. <br/>Admettez plutôt : \"Ok, ça craint ? Tant pis, comment j\'avance maintenant ?\". Après tout, vous ne pourrez jamais changer ce qu\'il s\'est passé. En revanche, c\est à vous de choisir comment vous allez réagir "+
+			"et c\'est à vous de décider l\'impact que ces petites choses du quotidien auront sur vous. Alors dès aujourd\'hui, appliquez la règle du 5/5 et en avant ! <br/>"+
+			"Petite chronique Europe 1 sur le sujet : <a target=\"blank\" href=\https://www.europe1.fr/emissions/antidote/la-regle-des-5-pour-apprendre-a-relativiser-3422282#:~:text=Ce%20qui%20n\'aura%20pas,ressasser%2C%20%C3%A0%20broyer%20du%20noir%E2%80%A6\">La règle des 5 pour apprendre à relativiser</a>.<br/>"+
+			"Je compte sur vous, bon samedi !<br/> <br/>"+
+			"<center><img id=\"sun\" style=\"max-width:200px;max-height:200px;\" src=\"./img/sun-Clker_pixabay.png\"/></center>";
 			break;
 		case "13" : 
 			content="On ne triche pas !";
@@ -327,7 +334,7 @@ function getTitle(day){
 			break;
 		//WK
 		case "5" : // P
-			title="Jour 5 - Nettoyeeer, balayeeeer ( <a href=\"https://www.youtube.com/watch?v=vyc3Tjxr4X0\" target=\"blank\">en chanson</a> !)"; //faire du tri chez soi, préparer de vieux vêtements à donner/vendre, des livres, jeter des papiers 
+			title="Jour 5 - Nettoyeeer, balayeeeer !"; //faire du tri chez soi, préparer de vieux vêtements à donner/vendre, des livres, jeter des papiers 
 			break;
 		//WK
 		case "6" : // P 
@@ -350,11 +357,11 @@ function getTitle(day){
 			break;
 		//WK
 		case "12" : // P
-			title="Jour 12 - Instant ludique"; // Un jeu à faire en famille ou entre amis, en présentiel ou en ligne
+			title="Jour 12 - Pas plus de 5 minutes !"; // Si un probleme n'aura plus d'importance dans 5 ans, n'y passe pas plus de 5 minutes
 			break;
 		//WK
 		case "13" : // P
-			title="Jour 13 - Pas plus de 5 minutes !"; // Si un probleme n'aura plus d'importance dans 5 ans, n'y passe pas plus de 5 minutes
+			title="Jour 13 - Instant ludique"; // Un jeu à faire en famille ou entre amis, en présentiel ou en ligne
 			break;
 		case "14" : // P
 			title="Jour 14 - Rituels"; // Equilibre pro/perso passe par les rituels, comme pour la routine avant de dormir
