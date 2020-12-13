@@ -274,7 +274,15 @@ function showDay(day){
 			"<center><img id=\"sun\" style=\"max-width:200px;max-height:200px;\" src=\"./img/sun-Clker_pixabay.png\"/></center>";
 			break;
 		case "13" : 
-			content="On ne triche pas !";
+			content="<img id=\"cold\" src=\"./img/cold-echapman_pixabay.png\"/>Pourquoi ne pas profiter de ce jour gris pour prendre des nouvelles de vos amis que vous n\'avez pas vu·e·s depuis longtemps ? <br/><br/>"+
+			"Voilà un objectif très simple pour aujourd\'hui : contacter deux personnes auxquelles vous n\'avez pas parlé récemment. Et tant qu\'à faire, pourquoi "+
+			"ne pas leur proposer une petite activité ?<br/> Ce n\'est pas parce que nous sommes confiné·e·s qu\'on ne peut rien faire ! <br/><br/>"+
+			"Vous pouvez faire un tour sur <a target=\"blank\" href=\"https://fr.boardgamearena.com/\">Board Game Arena</a>, une plateforme qui propose un (très) grand nombre de jeux... adaptés en ligne ! "+
+			"Vous pourriez aussi prévoir un petit dîner enquête avec <a href=\"https://www.culinario-mortale.fr/quest-ce-quun-diner-enquete/\" target=\"blank\">Culinario Mortale</a>. "+
+			"Sur certaines plateformes de jeux <span class=\"psst\">(Je pense à Steam mais vous pourrez probablement trouver ailleurs, je découvre encore l\'univers gaming...)</span>, vous pourrez trouver des packs où seul un·e joueur·se a besoin de posséder le jeu et le diffuse aux autres. "+
+			"C\'est le cas par exemple des <a href=\"https://www.jackboxgames.com/party-pack/\" target=\"blank\">JackBox Party Pack</a>. <br/>"+
+			"Et si vous avez la chance d\'être plusieurs à la maison, pourquoi ne pas en profiter pour un petit jeu hors écran, avec un petit chocolat chaud ? <br/><br/>"+
+			"Bon dimanche ! :)";
 			break;
 		case "14" : 
 			content="On ne triche pas !";
