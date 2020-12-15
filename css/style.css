@@ -173,3 +173,7 @@ q {
 	max-height : 150px;
 	padding-left : 10px;
 }
+#thanks { 
+	max-width : 250px;
+	max-height : 150px;
+}

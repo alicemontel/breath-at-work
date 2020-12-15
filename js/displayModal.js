@@ -314,7 +314,29 @@ function showDay(day){
 			"<span class=\"psst\">Ne cherchez pas de logique à une image de chat, je l\'ai juste trouvé très mignon et je trouvais qu\'un peu de mignonnerie, c\'est parfait pour entamer la semaine !";
 			break;
 		case "15" : 
-			content="On ne triche pas !";
+			content="Que diriez-vous si je vous donnais un moyen de vivre plus longtemps, plus heureux et au passage travailler avec des gens investis et motivés ? Plutôt pas mal non ? "+
+			"Pour cela, je vous propose aujourd\hui de parler de <b>gratitude et reconnaissance</b>. <br/><br/> "+
+			"Le sentiment de reconnaissance, c\'est lorsqu\'on réalise la valeur de ce qu\'on a sous les yeux, ce qui nous arrive, ... de l\'instant présent ! "+
+			"Ce n\'est pas une blague, les personnes qui éprouvent de la reconnaissance vivent plus longtemps, c\'est le bilan d\'une étude menée dans le Minnesota depuis 1986. "+
+			"Contenu RTL pour appréhender les bienfaits de la gratitude : <a href=\"https://www.rtl.fr/actu/bien-etre/les-bienfaits-insoupconnes-de-la-gratitude-pour-la-sante-7791571920\" target=\"blank\">Les bienfaits insoupçonnés de la gratitude pour la santé</a>. "+
+			"La reconnaissance a du bon pour vous mais aussi pour les autres ! Tout simplement parce que cela motive, cela donne confiance. C\'est pourquoi il est important d\'exprimer cette gratitude auprès de vos collègues. Anaïs Guyot en parle dans son podcast : <a href=\"https://www.youtube.com/watch?v=yu9gs6c-P_M\" target=\"blank\">La reconnaissance au travail[...]#22</a>.<br/>"+
+			"Wedoobiz en parlait également il y a déjà plusieurs années : <a href=\"https://www.youtube.com/watch?v=pyufrH_fb3Q\" target=\"blank\">Management : les bienfaits de la reconnaissance au travail</a>. Cependant, bien que le focus soit fait sur le management, la gratitude, c\'est l\'affaire de tous ! "+
+			"Pas besoin d\'être manager pour ressentir et exprimer sa gratitude et donner confiance à ses collègues. "+
+			"Et parce que j\'adore ce doux accent, je vous joins un autre petit contenu sur la reconnaissance de l\'institut Laval : <a href=\"https://www.youtube.com/watch?v=tSQIv0CWcJ0\" target=\"blank\">Le pouvoir de la reconnaissance</a>. "+
+			"Si vous creusez un peu, vous pourrez vous rendre compte qu\'il y a beaucoup de contenu Québécois sur le sujet ! C\'est très intéressant !<br/><br/> "+
+			"Il y a plusieurs degrés de pratique de la gratitude, je vous propose aujourd\'hui deux challenges <span class=\"psst\">(en plus de l\'exercice proposé dans le podcast)</span>: "+
+			"<ol><li>Manifestez votre gratitude auprès de 2 collègues aujourd\'hui : parce qu\'ils·elles vous ont aidé·e pour un dossier compliqué, parce qu\'ils·elles sont toujours disponibles pour vous, ce que vous voulez !</li>"+
+			"<li>Ce soir, au moment d'aller vous coucher, notez quelque part au moins 3 points positifs de votre journée. Même si votre journée vous a paru nulle, réfléchissez fort, vous pouvez forcément trouver trois points : un bon repas ? De la compagnie ? La fin du confinement peut-être ?</li>"+
+			"</ol>"+
+			"<h6>Pour aller + loin :</h6>"+
+			"Note pour les actifs travaillant avec Microsoft Teams, il est possible d\'envoyer des \"compliments\" à vos collègues, essayez, ça fait chaud au coeur ! :) <br/>"+
+			"Je vous partage un TEDx Talks sur le sujet également : <a href=\"https://www.youtube.com/watch?v=nZUfJpVxUNI\" target=\"blank\">Le pouvoir de la gratitude</a>. <br/>"+
+			"<br/>Enfin, idéalement, répétez le double challenge du jour régulièrement. Pourquoi ne pas en faire une routine ? Tous les vendredis, remerciez deux collègues qui vous ont rendu service cette semaine.<br/>"+
+			"Tous les jours, au moment du coucher, notez au moins 3 points positifs de votre journée. Vous dormirez mieux et au fil des jours, vous serez plus optimiste.<br/><br/> "+
+			"En tout cas, moi je commence tout de suite : un immense <b>merci</b> à vous qui lisez ce contenu ! C\'était un projet très important pour moi et je suis ravie de savoir que ne serait-ce qu\'une personne l\'apprécie ! <br/><b>Bonne journée !</b> <br/><br/>"+
+			"<center><img src=\"./img/thank-you_geralt_pixabay.png\" id=\"thanks\"/></center>";
+			
+			
 			break;
 		case "16" : 
 			content="On ne triche pas !";
