@@ -334,12 +334,30 @@ function showDay(day){
 			"<br/>Enfin, idéalement, répétez le double challenge du jour régulièrement. Pourquoi ne pas en faire une routine ? Tous les vendredis, remerciez deux collègues qui vous ont rendu service cette semaine.<br/>"+
 			"Tous les jours, au moment du coucher, notez au moins 3 points positifs de votre journée. Vous dormirez mieux et au fil des jours, vous serez plus optimiste.<br/><br/> "+
 			"En tout cas, moi je commence tout de suite : un immense <b>merci</b> à vous qui lisez ce contenu ! C\'était un projet très important pour moi et je suis ravie de savoir que ne serait-ce qu\'une personne l\'apprécie ! <br/><b>Bonne journée !</b> <br/><br/>"+
-			"<center><img src=\"./img/thank-you_geralt_pixabay.png\" id=\"thanks\"/></center>";
-			
-			
+			"<center><img src=\"./img/thank-you_geralt_pixabay.png\" id=\"thanks\"/></center>";			
 			break;
 		case "16" : 
-			content="On ne triche pas !";
+			content="<img id=\"run\" src=\"./img/woman-RoadLight_pixabay.png\"/>Aujourd\'hui, je vais probablement me mettre quelques managers à dos, mais tant pis, je prends le risque ! <br/><br/>"+
+			"Le défi du jour : <b>finir votre journée 1h plus tôt que d\'habitude</b>.<br/>"+
+			"Alors, mettons-nous bien d\'accord, si vous vous arrêtez déjà à l\'heure minimale définie par l\'entreprise, ça va être compliqué, dans ce cas là, je vous propose plutôt l\'alternative dans le paragraphe Pour aller + loin. "+
+			"Autrement, si vous faites partie de ces gens dont la fin de journée au travail à tendance à tarder un peu trop, ce défi est pour vous ! <br/>"+
+			"<br/>Pourquoi faire cela ? Certes, vous allez devoir rattraper cette heure, mais franchement, si vous vous débrouillez bien, en ajoutant un peu de temps chaque jour, ça passera presque inaperçu. Et si vous faites partie de ceux qui font des heures sup' gratuites, dites-vous qu\'une de ces heures sup' sera à raison pour une fois ! <br/> "+
+			"Le bon côté de la chose, c\'est l\'impression de liberté et de disponibilité que vous pourrez ressentir en finissant plus tôt. Une heure, c\'est à la fois très court et très long. Quand il faut préparer le repas, faire faire les devoirs aux enfants et étendre le linge en même temps, ça passe vite ...(ok, gros cliché, mais ça marche aussi avec : faire les courses, changer la litière du chat et ranger l\'appart pour accueillir les amis qui viennent dîner) ! "+
+			"Or aujourd\'hui, vous allez gagner une heure \"nouvelle\", que vous n\'aviez pas forcément prévu d\'avoir, une sorte de bonus. Et là, mille opportunités s\'offrent à vous : "+
+			"<ol><li>Profiterez-vous de ce petit temps supplémentaire pour prendre de l\'avance sur vos tâches et être moins stressé·e et/ou dormir plus tôt ? </li>"+
+			"<li>Ce serait peut-être l\'occasion de consacrer cette heure entièrement à vous : une séance de sport, un loisir que vous n\'avez pas pratiqué depuis longtemps, une nouvelle activité ? C\'est l\'occasion, on ne vous attend nulle part ! </li>"+
+			"<li>Ou alors en profiterez-vous pour aller vous promener tant qu\'il fait jour ? Bien plus agréable que quand il fait nuit noire (et froid en plus...) !</li></ol>"+
+			"Outre les bienfaits personnels d\'une telle habitude, le fait de savoir que votre journée va être moins longue vous oblige à bien la préparer, réfléchir à votre todo list et à vous y tenir. Pas question de trainer, il faut que les choses avancent, parce qu\'aujourd\'hui, vous partez tôt ! "+
+			"Derrière un apparent relâchement se cache en fait un gain de productivité. On ne vas pas se mentir, sur l\'ensemble de votre journée, vous n\'êtes jamais 100% productif·ve 100% du temps, c\'est juste impossible. Mais le fait de savoir que votre journée ne pourra pas s\'éterniser vous incitera à être plus concentré·e. "+
+			"Moins de distractions inutiles pendant le boulot pour plus de plaisir après, tout simplement ! :) <br/><br/>"+
+			"Demain matin, réfléchissez à ce défi et demandez-vous si avez profité de cette heure bonus. Pourquoi ne pas en faire une routine ? 1h en moins un jour, c\'est seulement 15 minutes de plus les autres jours si vous êtes à 100%. "+
+			"En jouant vraiment le jeu de déconnecter et exploiter au maximum cette heure cadeau comme vous et vous seul·e l\'entendez, ça vaut vraiment le coup ! <br/>"+
+			"À vous de trouver le jour qui vous convient le mieux : le vendredi pour partir en week-end plus tôt ? Le mercredi pour souffler en milieu de semaine ? Toutes les semaines ou plutôt une fois par mois ? Chacun·e son rythme !"+
+			"<h6>Pour aller + loin :</h6>"+
+			" Si le fait de finir 1h plus tôt le soir ne vous convient pas, voici une alternative qui a sensiblement les mêmes avantages : <b>allongez votre pause déjeuner</b>. <br/>"+
+			"Même combat, il faudra rattraper cette heure sur le restant de la semaine cependant vous obtiendrez le même gain de productivité et les mêmes avantages de cette heure bonus. Surtout que le midi, il fait jour, c\'est un bon moment pour faire le plein "+
+			"de vitamine D au soleil ! Vous pouvez également lire un livre, ou toute autre activité, c\'est votre moment ! Cela vous aidera d\'autant plus à faire une réelle coupure avec le boulot le temps de votre pause déjeuner, et ça, c\'est important ! <br/><br/>"+
+			"Bonne journée ! ";
 			break;
 		case "17" : 
 			content="On ne triche pas !";
