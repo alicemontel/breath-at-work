@@ -369,7 +369,27 @@ function showDay(day){
 			"<center><img id=\"team\" src=\"./img/teamwork_geralt_pixabay.png\" /></center> <br/> Bonne journée !";
 			break;
 		case "18" : 
-			content="On ne triche pas !";
+			content="<img src=\"./img/cat_jorgeduaro_pixabay.png\" id=\"whitecat\"/>Rappelez-vous, le 1er Décembre je vous parlais de bienveillance en entreprise. Vous avez même dû faire une petite auto-évaluation sur les 4 critères suivants : "+
+			"<ol>"+
+			"<li> Votre <b>politesse</b> : dites-vous Bonjour, Merci, ou encore Aurevoir ? </li>"+
+			"<li> Votre <b>disponibilité</b> : vos collègues peuvent-ils vous solliciter de temps en temps ou avez-vous tendance à toujours les envoyer balader ? </li>"+
+			"<li> Votre <b>ponctualité</b> : êtes-vous à l'heure en réunion ? Lorsque ce n'est pas le cas, prévenez-vous vos collègues ? </li>"+
+			"<li> Votre <b>fiabilité</b> : tenez-vous parole ? Lorsque vous annoncez un délai, le respectez-vous ? </li>"+
+			"</ol>"+
+			"Aujourd\'hui, je vous invite simplement à <b>faire le bilan</b>. Si vous deviez vous noter aujourd\'hui, votre score serait-il meilleur qu\'au début du mois ? "+
+			"Avez-vous réussi à mettre en place les actions que vous aviez identifiées ? Comment pouvez-vous encore progresser ? "+
+			"<h6>Pour aller + loin :</h6>"+
+			"Si vous souhaitez aller plus loin, je vous donne les 6 autres critères (mais vous devriez vraiment lire le petit livre de Gaël Chatelain-Berry !) : "+
+			"<ol>"+
+			"<li>Être souriant·e : ça passe quand même mieux après des collèges :) </li>"+
+			"<li>Votre empathie</li>"+
+			"<li>Être exemplaire : vous ne pouvez pas donner des conseils ou des ordres que vous ne suivez pas vous-mêmes.</li>"+
+			"<li>Garder votre calme en tout circonstance</li>"+
+			"<li>Être positif·ve</li>"+
+			"<li>Savoir écouter (vraiment écouter, pas savoir faire semblant !)</li>"+
+			"</ol>"+
+			"Alors, quel score ? Quelles actions ? Vous pourriez en faire vos résolutions professionnelles pour l\'an prochain ! "+
+			"<br/> Bonne journée !";
 			break;
 		case "19" : 
 			content="On ne triche pas !";
@@ -455,8 +475,8 @@ function getTitle(day){
 		case "17" : // C
 			title="Jour 17 - Team building"; // Participer à un event avec l'équipe
 			break;
-		case "18" : // C
-			title="Jour 18 -  Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
+		case "18" : // E,C
+			title="Jour 18 -  Quizz surprise !"; // Point sur les commandements de la bienveillance
 			break;
 		//WK
 		case "19" : //E, P
@@ -469,8 +489,8 @@ function getTitle(day){
 		case "21" : // P
 			title="Jour 21 - Burning up !"; // testmyburnout.com https://www.myhappyjob.fr/evaluez-en-ligne-votre-risque-de-burn-out-sur-testmyburnout/
 			break;
-		case "22" : // E, C
-			title="Jour 22 - Quizz surprise !"; // Point sur les commandements de la bienveillance
+		case "22" : // C
+			title="Jour 22 - Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
 			break;
 		case "23" : // E
 			title="Jour 23 - Parlons capital"; // Pas de capitalisme, mais capitalisation - capitaliser sur 1 ou plusieurs éléments encore de côté
