@@ -360,7 +360,13 @@ function showDay(day){
 			"Bonne journée ! ";
 			break;
 		case "17" : 
-			content="On ne triche pas !";
+			content="Et si vous parliez à vos collègues aujourd\'hui ? Mais pas pour parler du dossier que vous devez rendre en fin de semaine, plutôt pour parler de vous, d\'eux et d\'elles ? <br/><br/>"+
+			"Travailler au sein d\'une équipe, c\'est quand même plus sympa quand tout le monde s\'entend bien ! Alors forcément, on ne peut pas être méga copain-copine avec tout le monde, néanmoins cela n\'empêche pas à minima d\'être poli·e et sympathique avec tout le monde. "+
+			" Avoir une bonne ambiance en équipe, ça motive plus, ça incite à l\'entraide, ce qui est essentiel. Mais outre cela, le fait d\'échanger avec les membres de votre équipe peut aider à développer votre empathie ou au moins à l\'exprimer. "+
+			"Il est bon de savoir un peu où en est votre collègue dans sa vie pour réfléchir à la manière dont vous allez vous adresser à lui·elle. Il·Elle vous en sera probablement reconnaissant ! <br/><br/>"+
+			"Alors l\'objectif du jour, c\'est de <b>passer un moment avec vos collègues sans parler boulot</b> ! <br/>"+
+			"Il y a plein de possibilités : un jeu en ligne, discuter le temps d\'une pause café, un simple petit message \"Comment ça va ?\", à vous de décider :) <br/> "+
+			"<center><img id=\"team\" src=\"./img/teamwork_geralt_pixabay.png\" /></center> <br/> Bonne journée !";
 			break;
 		case "18" : 
 			content="On ne triche pas !";
@@ -447,10 +453,10 @@ function getTitle(day){
 			title="Jour 16 - Du temps pour soi"; // Finir 1h plus tôt que d'habitude
 			break;
 		case "17" : // C
-			title="Jour 17 - Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
+			title="Jour 17 - Team building"; // Participer à un event avec l'équipe
 			break;
 		case "18" : // C
-			title="Jour 18 - Team building"; // Participer à un event avec l'équipe
+			title="Jour 18 -  Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
 			break;
 		//WK
 		case "19" : //E, P
