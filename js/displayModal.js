@@ -392,7 +392,10 @@ function showDay(day){
 			"<br/> Bonne journée !";
 			break;
 		case "19" : 
-			content="On ne triche pas !";
+			content="On continue notre petite retrospective, aujourd\'hui rien de nouveau, il faut laisser un peu le temps d\'intégrer tout ce qu\'on a vu jusque-là :) "+
+			"C\'est le week-end, c\'est fait pour se reposer ! <br/><br/>"+
+			"Et si vous passiez en revue les différents articles pour voir lesquels vous ont plu, quelles astuces avez-vous réussi à mettre en place régulièrement ? "+
+			"<br/><br/>Bonne journée ! <br/><center><img src=\"./img/female-5625333_1280.png\" id=\"repos\" /></center>";			
 			break;
 		case "20" : 
 			content="On ne triche pas !";
@@ -480,7 +483,8 @@ function getTitle(day){
 			break;
 		//WK
 		case "19" : //E, P
-			title="Jour 19 - Todo List à toute épreuve !"; // Pour anticiper le dimanche de non productivité, faire des choses le samedi, aide à s'organiser
+			title="Jour 19 - Petit bilan ";
+			//Todo List à toute épreuve !"; // Pour anticiper le dimanche de non productivité, faire des choses le samedi, aide à s'organiser
 			break;
 		//WK
 		case "20" : 

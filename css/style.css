@@ -167,13 +167,13 @@ q {
 	float : right;
 }
 
-#laptop, #breathe, #unicorn, #cold, #cat, #run, #whitecat {
+#laptop, #breathe, #unicorn, #cold, #cat, #run, #whitecat{
 	float : right; 
 	max-width : 150px;
 	max-height : 150px;
 	padding-left : 10px;
 }
-#thanks, #team { 
+#thanks, #team , #repos{ 
 	max-width : 250px;
 	max-height : 150px;
 }
