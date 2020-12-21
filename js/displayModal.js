@@ -398,7 +398,22 @@ function showDay(day){
 			"<br/><br/>Bonne journée ! <br/><center><img src=\"./img/female-5625333_1280.png\" id=\"repos\" /></center>";			
 			break;
 		case "20" : 
-			content="On ne triche pas !";
+			content="<img src=\"./img/woman2_roadlight_pixabay.png\" id=\"window\"/>Et si on se reposait aujourd\'hui ?  Si, pour une fois, on se donnait le droit de ne rien faire ?<br/><br/>"+
+			"Dans un monde où tout va trop et vite et où nous sommes sans cesse sollicité·e·s, on en oublie ce que c\'est que de ne rien faire. Pourtant, s\'accorder des moments "+
+			"de non productivité a du bon, pour la santé et pour l\'esprit ! <br/> "+
+			"Votre cerveau lui ne va pas s\'arrêter de fonctionner, mais vous lui offrez ainsi l\'opportunité de penser à plein de choses, de rêver, de créer, bref tout ce qu\'il ne peut pas faire "+
+			"lorsque vous êtes concentré·e·s sur les tâches quotidiennes. Niveau santé, une étude menée en 2015 a montré que les personnes travaillant trop augmentent leur risque de faire une crise cardiaque. "+
+			"<br/><br/> Mais pour que ça marche évidemment, il ne faut pas éprouver de culpabilité, même pas un petit peu ! Faire une pause c\'est essentiel, même sur son temps perso. Alors si un jour (où vous ne travaillez pas), vous n\'avez envie que de "+
+			"vous rouler dans un plaid devant une série nulle, allez-y ! <br/><br/>"+
+			"Vous pouvez aussi réfléchir à la raison de ce manque d\'énergie : êtes-vous fatigué·e ? Ce que vous deviez faire ne vous intéresse pas ? Peut-être votre corps essaie-t-il de vous faire passer un message ? et si vous vous écoutiez pour une fois ? "+
+			"Une journée entière peut paraître longue surtout en cette période de fêtes alors pour une première, on va être réaliste. Votre défi aujourd'\hui est donc de vous réserver "+
+			"<b>2h off</b> : 2h pendant lesquelles vous n\'avez aucun objectif de productivité, vous faites ce que vous voulez et si vous avez envie de changer d\'activité vous le faites sans vous poser de question. "+
+			"Si vous avez seulement envie de faire une sieste, faites. Si vous voulez regarder un film en mangeant des chocolats, faites-le aussi ! "+
+			"<h6>Pour aller + loin : </h6>"+
+			"Très franchement, cet exercice n\'est pas facile. J\'ai beaucoup de mal à le mettre en place, mais il fonctionne mieux avec un moment de productivité. Mon rythme typique du week-end va être de faire un maximum de tâches le samedi, "+
+			"puis rien le dimanche après-midi. Cela aide à ne pas culpabiliser, puisque ce qui devait être fait a été fait la veille. Vous pourriez aussi le faire en découpant par demies journées : être efficace le dimanche matin et ne vous fixer aucun "+
+			"objectif pour le dimanche après-midi ! Mais cela demande une certaine discipline pour être efficace quand il le faut. C\'est un travail sur soi, mais ça vaut le coup ! A vous de trouver le rythme qui vous convient :) "+
+			"<br/><br/>Bon dimanche ! ";
 			break;
 		case "21" : 
 			content="On ne triche pas !";
