@@ -416,7 +416,11 @@ function showDay(day){
 			"<br/><br/>Bon dimanche ! ";
 			break;
 		case "21" : 
-			content="On ne triche pas !";
+			content="<img src=\"./img/work_arivleone_pixabay.png\" id=\"cowork\"/> Dernière semaine avant Noël ! Plus que 4 jours de travail avant un long week-end !<br/>"+
+			"Beaucoup de personnes sont probablement déjà en vacances, peut-être votre agenda est il un peu moins chargé... Alors je vous propose d\'utiliser ce temps pour anticiper les prochaines périodes denses au travail.<br/> "+
+			"Aujourd\'hui, votre objectif va être de <b>capitaliser un maximum</b>. Prenez un temps dans la journée pour mettre à l\'écrit et à disposition de votre équipe des informations que vous détenez. <br/>"+
+			"Que ce soit des astuces sur l\'utilisation d\'un outil, ou des informations sur un dossier, il y a forcément une multitude de choses que vous avez pu observer et auxquelles vos collègues pourraient également être confronté·e·s, "+
+			"alors aidez-les à gagner du temps en partageant votre expérience ! C\'est la magie de l\'entraide et on est plus efficace : tout le monde est gagnant ! <br/><br/> Bonne journée !";
 			break;
 		case "22" : 
 			content="On ne triche pas !";
@@ -506,13 +510,13 @@ function getTitle(day){
 			title="Jour 20 - Flegme et non flemme"; // S'autoriser la non-productivité, ne rien faire de constructif
 			break;
 		case "21" : // P
-			title="Jour 21 - Burning up !"; // testmyburnout.com https://www.myhappyjob.fr/evaluez-en-ligne-votre-risque-de-burn-out-sur-testmyburnout/
+			title="Jour 21 - Capitalisation"; // Pas de capitalisme, mais capitalisation - capitaliser sur 1 ou plusieurs éléments encore de côté
 			break;
 		case "22" : // C
 			title="Jour 22 - Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
 			break;
 		case "23" : // E
-			title="Jour 23 - Parlons capital"; // Pas de capitalisme, mais capitalisation - capitaliser sur 1 ou plusieurs éléments encore de côté
+			title="Jour 23 - Burning up !"; // testmyburnout.com https://www.myhappyjob.fr/evaluez-en-ligne-votre-risque-de-burn-out-sur-testmyburnout/
 			break; 
 		case "24" : // P, C
 			title="Jour 24 - Imposture !"; // syndrôme de l'imposteur et demande de Feedback 
