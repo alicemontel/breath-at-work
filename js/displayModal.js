@@ -451,10 +451,18 @@ function showDay(day){
 			"Le but est de pouvoir se dire : \"J\'ai été productif.ve, mais j\'ai encore du temps pour moi !\" ";
 			break;
 		case "23" : 
-			content="On ne triche pas !";
+			content="<img src=\"./img/reindeer_elsiebeedesigns_pixabay.png\" id=\"reindeer\"/>Je me suis dit qu\'une idée par jour, c\'était très dense, surtout pendant presque un mois ! D'autant plus qu\'en ce moment, on a tous autre chose en tête probablement !<br/>"+
+			"Alors j\'ai décidé d\'arrêter le calendrier aujourd\'hui, pour vous laisser profiter de cette période de fêtes. Vous pouvez parcourir à volonté les thématiques abordées, en cliquant sur les cases "+
+			"ou alors via l\'historique qui vous permet d\'accéder à un article en particulier sans avoir besoin de vous souvenir de la thématique de chaque jour. <br/><br/> "+
+			"J\'espère que ce petit calendrier vous a plu, c\'était une première et j\'ai bien l\'intention de travailler à une v2 pour 2021 <span class=\"psst\">(en m\'y prenant avant Novembre cette fois...)</span>. "+
+			"<br/><br/><b>Passez de belles fêtes de fin d\'année ! On se retrouve en 2021 pour du nouveau contenu. Prenez soin de vous !!</b><br/><br/>";
 			break;
 		case "24" : 
-			content="On ne triche pas !";
+			content="<img src=\"./img/reindeer_elsiebeedesigns_pixabay.png\" id=\"reindeer\"/>Je me suis dit qu\'une idée par jour, c\'était très dense, surtout pendant presque un mois ! D'autant plus qu\'en ce moment, on a tous autre chose en tête probablement !<br/>"+
+			"Alors j\'ai décidé d\'arrêter le calendrier aujourd\'hui, pour vous laisser profiter de cette période de fêtes. Vous pouvez parcourir à volonté les thématiques abordées, en cliquant sur les cases "+
+			"ou alors via l\'historique qui vous permet d\'accéder à un article en particulier sans avoir besoin de vous souvenir de la thématique de chaque jour. <br/><br/> "+
+			"J\'espère que ce petit calendrier vous a plu, c\'était une première et j\'ai bien l\'intention de travailler à une v2 pour 2021 <span class=\"psst\">(en m\'y prenant avant Novembre cette fois...)</span>. "+
+			"<br/><br/><b>Passez de belles fêtes de fin d\'année ! On se retrouve en 2021 pour du nouveau contenu. Prenez soin de vous !!</b><br/><br/>";
 			break;
 		case "25" : 
 			content="Aujourd'hui, pas d'astuce travail, c'est Noël, c'est férié ! </br> La QVT ça passe aussi et surtout par l'équilibre perso/pro, alors chérissez l'instant présent !";
@@ -542,10 +550,12 @@ function getTitle(day){
 			//Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
 			break;
 		case "23" : // E
-			title="Jour 23 - Burning up !"; // testmyburnout.com https://www.myhappyjob.fr/evaluez-en-ligne-votre-risque-de-burn-out-sur-testmyburnout/
+			title="Jour 23 - On se revoit bientôt ! ";
+			//Burning up !"; // testmyburnout.com https://www.myhappyjob.fr/evaluez-en-ligne-votre-risque-de-burn-out-sur-testmyburnout/
 			break; 
 		case "24" : // P, C
-			title="Jour 24 - Imposture !"; // syndrôme de l'imposteur et demande de Feedback 
+			title="Jour 24 - On se revoit bientôt !";
+			//Imposture !"; // syndrôme de l'imposteur et demande de Feedback 
 			break;
 		case "25" : // P
 			title="Jour 25 - Joyeux Noël !";
