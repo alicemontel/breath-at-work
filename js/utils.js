@@ -57,7 +57,7 @@ function saveValue(elem){
 //get the saved value function - return the value of "v" from localStorage. 
 function getSavedValue(day){
     if (!localStorage.getItem(day)) {
-        return "closed";// You can change this to your defualt value. 
+        return "closed";// You can change this to your default value. 
     }
     return localStorage.getItem(day);
 }
@@ -71,26 +71,18 @@ function fillCalendar(){
 	shuffle(arr);
 	var calendarContent ="";
 	//xmas
-	if(todayMonth==11 && todayDay==25 && getSavedValue(todayDay)=="open"){
+	//if(todayDay==25 && getSavedValue(todayDay)=="open"){
 		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileOpened modal-trigger\" onclick=\"javascript:saveValue(this);\" href=\"#modal1\">25</a></td></tr>";
-	} else {
+	/*} else {
 		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileClosed modal-trigger\" href=\"#modalClosed\">25</a></td></tr>";			
-	}
+	}*/
 	for(i = 0; i < 4; i++){
       	calendarContent+="<tr>";
 		for(j = 0; j < 6; j++){
       		var day = arr[j+i*6]; 
 			//Before Xmas			
-			if(todayMonth==11 && (day<todayDay || (day==todayDay && getSavedValue(day)=="open"))){
-				calendarContent += "<td class=\"td\"><a class=\"dayTileOpened modal-trigger\" href=\"#";
-				calendarContent += "modal1";
-			} else if(day==todayDay && getSavedValue(day)=="closed"){
-				calendarContent += "<td class=\"td\"><a class=\"dayTileClosed modal-trigger\" onclick=\"javascript:saveValue(this);\" href=\"#";
-				calendarContent += "modal1";
-			} else {
-				calendarContent += "<td class=\"td\"><a class=\"dayTileClosed modal-trigger\" href=\"#";
-				calendarContent += "modalClosed";
-			}	
+			calendarContent += "<td class=\"td\"><a class=\"dayTileOpened modal-trigger\" onclick=\"javascript:saveValue(this);\" href=\"#";
+			calendarContent += "modal1";
 			calendarContent += "\">";
 			calendarContent += day;
 			calendarContent += "</a></td>";
@@ -109,8 +101,9 @@ function fillHistory(){
 	if (today >= xmas){
 		index = 25;
 	}
-	if(todayMonth == 11){
-		index = todayDay;	
+	// Reactivation chantier QVT 
+	//if(todayMonth == 11){
+	//index = todayDay;	
 	
 		for(i=1; i<=index; i++){
 			historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistory modal-trigger\" href=\"#modal1\" value='";
@@ -118,8 +111,8 @@ function fillHistory(){
 			historyContent += title;
 			historyContent += "\'/></li>";
 		}
-	} else {
-		historyContent += "Il n\'y a pas encore d'astuces disponibles, reviens demain !"
-	}
+	//} else {
+	//	historyContent += "Il n\'y a pas encore d'astuces disponibles, reviens demain !"
+	//}
 	return historyContent+"</ul>" ; 
 }
