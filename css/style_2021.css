@@ -1,0 +1,84 @@
+#bodyCalendar2021{
+	background-image : url('../img/christmas-g7d7c3de2b_1920.jpg'); //url('../img/christmas-g8b974cfd7_1920.jpg');;
+	background-position : center;
+	background-repeat: no-repeat;
+}
+
+.calendar {
+	width : 60%; 
+	height : 70%;
+	table-layout: fixed ;
+	margin : auto;
+	text-align : center;
+}
+
+.daysBfore {
+	height : 80%;
+}
+
+.xmasday {
+	height : 20%;
+	width : 20%;
+	margin-left:auto;
+	margin-right : auto;
+}
+
+.daycase {
+	width : 100% ; 
+	height : 100%;
+}
+
+.dayTileOpened{
+	display : block; 
+	color : #1D5E47;
+	padding : 5px;
+	font-weight : bold;
+	border: 2px groove #1D5E47 !important;
+	width :  60%;
+	height : 100%;
+	margin : auto;
+	font-size : 1.5em;
+}
+
+.dayTileClosed{
+	display : block; 
+	color : #DF2935;
+	padding : 5px;
+	font-weight : bold;
+	border: 2px groove #FFDA0A !important;
+	width :  60%;
+	height : 100%;
+	margin : auto;
+	font-size : 1.5em;
+}
+
+.dropdown-content {
+	width : 20% !important ;
+}
+
+.modalHistory{
+	border : none; 
+	background-color: transparent;
+	width : 100%;
+	display : flex;
+	min-height : 50px;
+	padding-left : 5%;
+}
+
+.history{
+	scrollbar-color : green;
+}
+
+.modal {
+	border-radius : 10px !important;
+}
+
+#contactContent, #srcContent, #credit, #homeContent{
+	text-align : justify;
+	padding-left : 10%;
+	padding-right :20%;
+}
+
+a:not(.menu){
+	color : white ; //#1D5E47;
+}

@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="icon" type="image/png" href="./img/baw.PNG" />
  	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style_2020.css" />
 	<!--Import materialize.css-->
 	<!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -16,8 +17,8 @@
 
 window.onload = function() {
    document.getElementById("daysXmas").innerHTML=getBforeXmas();
-   document.getElementById("calendar").innerHTML=fillCalendar();
-   document.getElementById("history").innerHTML=fillHistory();
+   document.getElementById("calendar").innerHTML=fillCalendar(2020);
+   document.getElementById("history").innerHTML=fillHistory(2020);
 } 
 
 var now = new Date();

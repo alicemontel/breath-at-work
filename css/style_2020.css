@@ -1,66 +1,14 @@
-html, body {
-	height : 100%;
-	//background-color : #e8f1f2;
+#bodyCalendar2020{
+	background-image : url('../img/white_wood_pixabay.jpg');
+	background-position : center;
 }
 
-.header {
-	background-color : #1D5E47;
-}
-
-h1 {
-	text-align : center;
-	color : #DF2935;
-	font-size :2.5em !important;
-	font-family : monospace, serif !important;
-}
-
-h4 {
-	color : #DF2935;
-}
-
-h6{
-	color : #DF2935;
-	font-weight : bold !important;
-}
-
-h5 {
-	font-weight : bold !important; 
-	padding-left : 5%;
-}
-
-.btn {
-	background-color : #1D5E47 !important;
-	float : right;
-}
-
-li {
-	list-style: inside circle;
-	list-style-type : circle;
-}
-
-ul:not(.browser-default) > li {
-	list-style-type : circle !important;
-}
-
-ul:not(.browser-default) > .notli {
-	list-style-type : none !important;
-	display : inline-block;
-}
-
-table {
-	border-collapse : unset !important;
-}
 .calendar {
 	width : 60%; 
 	height : 70%;
 	table-layout: fixed ;
 	margin : auto;
 	text-align : center;
-	//padding-left : 10%	;
-}
-
-td {
-	text-align : center !important; 
 }
 
 .daysBfore {
@@ -135,23 +83,25 @@ td {
 	margin-right : 20px;
 }
 
-.psst{
-	font-size : 0.7em;
-}
-
 a:not(.menu){
 	color : #1D5E47 !important;
 	font-style:italic ;
 	text-decoration : underline;
 }
 
-q {
-	font-size : 2em;
-	font-style : italic; 
-	color : #DF2935;
+#flower, #list {
+	max-width : 100px;
+	max-height : 100px;
+	float : right;
 }
-.quote {
-	width : 80%;
-	margin : auto;
-	text-align : right;
+
+#laptop, #breathe, #unicorn, #cold, #cat, #run, #whitecat, #window, #cowork, #reindeer{
+	float : right; 
+	max-width : 150px;
+	max-height : 150px;
+	padding-left : 10px;
+}
+#thanks, #team , #repos{ 
+	max-width : 250px;
+	max-height : 150px;
 }

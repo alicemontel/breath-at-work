@@ -62,11 +62,11 @@ function getSavedValue(day){
     return localStorage.getItem(day);
 }
 
-function fillCalendar(){
+function fillCalendar(year){
 	today=new Date();
 	todayDay = today.getDate();
 	todayMonth = today.getMonth();
-	var xmas = new Date(2020, 11, 25);
+	var xmas = new Date(year, 11, 25);
 	let arr = Array.from({length: 24}, (_, i) => i + 1);
 	shuffle(arr);
 	var calendarContent ="";
@@ -92,12 +92,12 @@ function fillCalendar(){
 	return calendarContent;
 }
 
-function fillHistory(){
+function fillHistory(year){
 	var historyContent = "<ul class=\"collapsible\">";
 	var today = new Date();
 	todayDay = today.getDate();
 	var index = 0;
-	var xmas = new Date(2020, 11, 25);
+	var xmas = new Date(year, 11, 25);
 	if (today >= xmas){
 		index = 25;
 	}
