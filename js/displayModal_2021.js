@@ -85,90 +85,86 @@ function showDay(day){
 function getTitle(day){
 	var title ="";
 	switch(day){
-		case "1" : // E(entreprise), P(perso), C(communication)
-			title="Jour 1, 1er Décembre - Petit point sur la situation"; // 10 commandements du bien-être en entreprise
+		case "1" : 
+			title="Exercice matinal";
 			break;
-		case "2" : // P
-			title="Jour 2 - Déconnexion"; // plus de mail en pleine nuit
+		case "2" : 
+			title="Un peu de concentration !";
 			break;
-		case "3" : // P
-			title="Jour 3 - Tous des plantes vertes !"; // s'hydrater et rester en mouvement
+		case "3" : 
+			title="Yogi yoga";
 			break;	
-		case "4" : // E, P
-			title="Jour 4 - Ni plus, ni moins"; // Le matin faire une todo list (realisable) et faire ni plus ni moins que ce qui est ecrit dessus
+		//WK	
+		case "4" : 
+			title="La communication non violente";
 			break;
 		//WK
-		case "5" : // P
-			title="Jour 5 - Nettoyeeer, balayeeeer !"; //faire du tri chez soi, préparer de vieux vêtements à donner/vendre, des livres, jeter des papiers 
+		case "5" : 
+			title="TV - plaid - chocolat chaud.";
+			break;
+		case "6" : 
+			title="Cadeau utilo-écolo !";
+			break;
+		case "7" : 
+			title="Dessiner c'est gagner !";
+			break;
+		case "8" :
+			title="Merci";
+			break;
+		case "9" : 
+			title="Manager...pas facile !";
+			break;
+		case "10" : 
+			title="Petite introduction à la méditation";
 			break;
 		//WK
-		case "6" : // P 
-			title="Jour 6 - Quand je marche..."; // faire 10 000 pas
-			break;
-		case "7" : // E, P
-			title="Jour 7 - Un voyant pas si vert que ça... "; //https://www.myhappyjob.fr/labsenteisme-moral-vous-connaissez/
-			break;
-		case "8" : // P, C
-			title="Jour 8 - Petit exercice de concentration "; // Pas de mail, notifications pendant X heures ou minutes
-			break;
-		case "9" : // P 
-			title="Jour 9 - Il faut que tu respires"; // exercice de respiration
-			break;
-		case "10" : // E, P
-			title="Jour 10 - Une histoire de priorité"; // le diagramme urgent/important, le challenge en + : "dire non à un truc ce jour"
-			break;
-		case "11" : // E, P
-			title="Jour 11 - Cultivez vos erreurs !"; // Le droit a l'erreur, podcast Happy Work, lien
+		case "11" :
+			title="Les accords Toltèques";
 			break;
 		//WK
-		case "12" : // P
-			title="Jour 12 - Pas plus de 5 minutes !"; // Si un probleme n'aura plus d'importance dans 5 ans, n'y passe pas plus de 5 minutes
+		case "12" : 
+			title="Home cooking";
+			break;
+		case "13" : 
+			title="Partez serein·e";
+			break;
+		case "14" :
+			title="Les méfaits du présentéisme";
+			break;
+		case "15" : 
+			title="Cerveau déconnecté";
+			break;
+		case "16" :
+			title="On joue ?";
+			break;
+		case "17" : 
+			title="Petite introduction à la cohérence cardiaque";
 			break;
 		//WK
-		case "13" : // P
-			title="Jour 13 - Instant ludique"; // Un jeu à faire en famille ou entre amis, en présentiel ou en ligne
-			break;
-		case "14" : // P
-			title="Jour 14 - La routine a du bon"; // Equilibre pro/perso passe par les rituels, comme pour la routine avant de dormir
-			break;
-		case "15" : // E,P
-			title="Jour 15 - Le mot magique"; // la gratitude (les compliments Teams ?)
-			break;
-		case "16" : // P
-			title="Jour 16 - Du temps pour soi"; // Finir 1h plus tôt que d'habitude
-			break;
-		case "17" : // C
-			title="Jour 17 - Team building"; // Participer à un event avec l'équipe
-			break;
-		case "18" : // E,C
-			title="Jour 18 -  Quizz surprise !"; // Point sur les commandements de la bienveillance
+		case "18" : 
+			title="Quelques idées de Podcasts...";
 			break;
 		//WK
-		case "19" : //E, P
-			title="Jour 19 - Petit bilan ";
-			//Todo List à toute épreuve !"; // Pour anticiper le dimanche de non productivité, faire des choses le samedi, aide à s'organiser
+		case "19" : 
+			title="Hypersensible - hypergénial !";
 			break;
-		//WK
 		case "20" : 
-			title="Jour 20 - Flegme et non flemme"; // S'autoriser la non-productivité, ne rien faire de constructif
+			title="Egalité";
 			break;
-		case "21" : // P
-			title="Jour 21 - Capitalisation"; // Pas de capitalisme, mais capitalisation - capitaliser sur 1 ou plusieurs éléments encore de côté
+		case "21" :
+			title="Souffrez-vous de réunionite aigue ?";
 			break;
-		case "22" : // C
-			title="Jour 22 -  Ni plus, ni moins... le retour !"; 
-			//Management de la machine à café"; // Faire une pause, croiser du monde ou proposer à des collègues"
+		case "22" : 
+			title="Les piliers de la bienveillance en entreprise"; 
 			break;
-		case "23" : // E
-			title="Jour 23 - On se revoit bientôt ! ";
-			//Burning up !"; // testmyburnout.com https://www.myhappyjob.fr/evaluez-en-ligne-votre-risque-de-burn-out-sur-testmyburnout/
+		case "23" : 
+			title="La goutte d'eau";
 			break; 
-		case "24" : // P, C
-			title="Jour 24 - On se revoit bientôt !";
-			//Imposture !"; // syndrôme de l'imposteur et demande de Feedback 
+		case "24" :
+			title="Apéro dinatoire";
 			break;
-		case "25" : // P
-			title="Jour 25 - Joyeux Noël !";
+		case "25" :
+			title="Joyeux Noël !";
 			break;						
 	}
 	return title;

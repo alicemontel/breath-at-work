@@ -1,5 +1,5 @@
 #bodyCalendar2021{
-	background-image : url('../img/christmas-g7d7c3de2b_1920.jpg'); //url('../img/christmas-g8b974cfd7_1920.jpg');;
+	background-image : url('../img/pexels-giftpunditscom-1303094.jpg');
 	background-position : center;
 	background-repeat: no-repeat;
 }
@@ -30,25 +30,26 @@
 
 .dayTileOpened{
 	display : block; 
-	color : #1D5E47;
+	background-color : rgba(254, 246, 242, 0.6);
+	border: 2px groove #FFDA0A !important;
+	border-radius : 3px;
+	font-family : Gabriola;
 	padding : 5px;
-	font-weight : bold;
-	border: 2px groove #1D5E47 !important;
 	width :  60%;
 	height : 100%;
-	margin : auto;
-	font-size : 1.5em;
+	//margin : auto;
+	font-size : 1.7em;
 }
 
 .dayTileClosed{
 	display : block; 
+	background-color : blue ;
 	color : #DF2935;
 	padding : 5px;
 	font-weight : bold;
-	border: 2px groove #FFDA0A !important;
 	width :  60%;
 	height : 100%;
-	margin : auto;
+	//margin : auto;
 	font-size : 1.5em;
 }
 
@@ -80,5 +81,5 @@
 }
 
 a:not(.menu){
-	color : white ; //#1D5E47;
+	color :rgba(227, 48, 60, 1);
 }

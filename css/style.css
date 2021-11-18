@@ -10,8 +10,10 @@ html, body {
 h1 {
 	text-align : center;
 	color : #DF2935;
-	font-size :2.5em !important;
-	font-family : monospace, serif !important;
+	font-size :3em !important;
+	font-family : gabriola, serif !important;
+	margin-top : 1% !important;
+	margin-bottom : 1% !important;
 }
 
 h4 {
@@ -54,9 +56,8 @@ table {
 	width : 60%; 
 	height : 70%;
 	table-layout: fixed ;
-	margin : auto;
+	//margin : auto;
 	text-align : center;
-	//padding-left : 10%	;
 }
 
 td {
@@ -77,28 +78,6 @@ td {
 .daycase {
 	width : 100% ; 
 	height : 100%;
-}
-
-.dayTileOpened{
-	display : block; 
-	color : #1D5E47;
-	padding : 5px;
-	font-weight : bold;
-	border: 2px groove #1D5E47 !important;
-	width :  60%;
-	height : 100%;
-	margin : auto;
-}
-
-.dayTileClosed{
-	display : block; 
-	color : #DF2935;
-	padding : 5px;
-	font-weight : bold;
-	border: 2px groove #FFDA0A !important;
-	width :  60%;
-	height : 100%;
-	margin : auto;
 }
 
 .dropdown-content {
@@ -137,12 +116,6 @@ td {
 
 .psst{
 	font-size : 0.7em;
-}
-
-a:not(.menu){
-	color : #1D5E47 !important;
-	font-style:italic ;
-	text-decoration : underline;
 }
 
 q {
