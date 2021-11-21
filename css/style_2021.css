@@ -37,20 +37,20 @@
 	padding : 5px;
 	width :  60%;
 	height : 100%;
-	//margin : auto;
 	font-size : 1.7em;
 }
 
 .dayTileClosed{
 	display : block; 
-	background-color : blue ;
-	color : #DF2935;
+	background-color : #DF2935;
+	color : #FFDA0A !important;
+	border: 2px groove #FFDA0A !important;
+	border-radius : 3px;
+	font-family : Gabriola;
 	padding : 5px;
-	font-weight : bold;
 	width :  60%;
 	height : 100%;
-	//margin : auto;
-	font-size : 1.5em;
+	font-size : 1.7em;
 }
 
 .dropdown-content {
