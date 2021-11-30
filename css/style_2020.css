@@ -76,13 +76,6 @@
 	padding-right :20%;
 }
 
-#mypic{
-	max-width : 200px;
-	max-height: 200px;
-	float : left;
-	margin-right : 20px;
-}
-
 a:not(.menu){
 	color : #1D5E47 !important;
 	font-style:italic ;

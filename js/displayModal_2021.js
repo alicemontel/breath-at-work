@@ -3,7 +3,26 @@ function showDay(day){
 	var content = "";
 	switch(day){
 		case "1" :
-			content="1";
+			content="Qui n\'a pas déjà eu du mal à se mettre au travail le matin ? <br/>Et, entre nous, avec le télétravail, c\'est pire non ?! "+
+			"<center><img id=\"cowork\" src=\"./img/remote-RoadLight_pixabay.png\"/></center><br/>"+
+			"Pas toujours facile quand il faut se traîner du lit à la chaise sur laquelle on va passer la plus grande partie de notre journée. "+
+			"On se dit qu\'on serait bien resté·e au lit, roulé·e en boule sous la couette...<br/>"+
+			"Et si, juste en quelques minutes, vous pouviez faire comprendre à votre corps qu\'il est l\'heure de se réveiller ?"+
+			"Les japonais ont une technique imparable pour cela. Le matin, quelques minutes d\'exercice pour dérouiller son corps et être dans de bonnes dispositions pour la journée. "+
+			"En plus, vous n\'avez besoin d\'aucun équipement particulier ! "+
+			"Vous voulez essayer ? On vous guide :"+
+			"<ol>"+
+				"<li>1 minute pour expliquer le Radio Taiso avec France info : <a target=\"blank\" href=\"https://www.francetvinfo.fr/monde/japon/japon-trois-minutes-de-radio-taiso-pour-se-maintenir-en-forme_4690849.html\">Japon : trois minutes de \"radio taïso\" pour se maintenir en forme</a></li>"+
+				"<li><a target=\"blank\" href=\"https://www.youtube.com/watch?v=XMOBmeESO4A\">Radio Taiso Movie</a> par Japan-America Society of Houston :</li>"+
+				"<br><center><iframe width=\"450\" height=\"350\" src=\"https://www.youtube.com/embed/XMOBmeESO4A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center><br/>"+
+				"</ol>"+
+			"<h6>Le petit + :</h6>"+
+			"Avant de commencer votre après-midi et en fin de journée, pourquoi ne pas vous essayer au Shiatsu ? <br/>"+
+			"Décidément la culture japonaise à beaucoup à nous apprendre ! <br/>Le Shiatsu est une discipline japonaise <span class=\"psst\">(bon ok, inspirée de la médecine chinoise)</span> "+
+			"qui consiste à exercer une pression à des endroits stratégiques du corps pour relâcher la tension. <br/>Intéressé·e ? "+
+			"On vous propose un petit tuto <span class=\"psst\">(parmi tant d'autres !)</span>, 5 minutes chrono, qui vous fera travailler votre anglais en bonus !<span class=\"psst\">(sous-titres FR dispos)</span>: "+
+			"<a target=\"blank\" href=\"https://www.youtube.com/watch?v=uUNi-lqZz84\">Auto-Shiatsu de 5 minutes pour la mobilité du cou et des épaules | Suivez la routine d'auto-massage avec tutoriel</a>, sur la chaine de Natural Mobility."+
+			" Attention cependant, le shiatsu reste une discipline médicale, personne ne saura mieux vous conseiller qu\'un professionnel donc.";
 			break;
 		case "2" :		
 			content="2";

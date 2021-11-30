@@ -2,6 +2,7 @@
 	background-image : url('../img/pexels-giftpunditscom-1303094.jpg');
 	background-position : center;
 	background-repeat: no-repeat;
+	background-size : cover;
 }
 
 .calendar {
@@ -82,4 +83,9 @@
 
 a:not(.menu){
 	color :rgba(227, 48, 60, 1);
+}
+
+#cowork{
+	max-width : 200px;
+	max-height : auto;
 }

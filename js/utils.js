@@ -76,7 +76,7 @@ function fillCalendar(year){
 		for(j = 0; j < 6; j++){
 			var day = arr[j+i*6]; 
 			keyDay = ""+day+todayYear;
-			if(todayYear>year || (todayMonth==11 && getSavedValue(keyDay)=="open")){				
+			if(todayYear>year || (day<=todayDay && todayMonth==11 && getSavedValue(keyDay)=="open")){				
 				calendarContent += "<td class=\"td\"><a class=\"dayTileOpened modal-trigger\" href=\"#modal1";
 			} else if(day<=todayDay && todayMonth==11 && getSavedValue(keyDay)=="closed"){
 				calendarContent += "<td class=\"td\"><a class=\"dayTileClosed modal-trigger\" onclick=\"javascript:saveValue(this, now.getFullYear());\" href=\"#modal1";
