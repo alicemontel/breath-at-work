@@ -53,7 +53,24 @@ function showDay(day){
 			"<li><a target=\"blank\" href=\"https://www.welcometothejungle.com/en/articles/deep-work-rules-for-focused-success-in-a-distracted-world-by-cal-newport\"> Deep Work rules for focused success in a distracted world, by cal newport</a></li></ol>";
 			break;
 		case "3" : 
-			content="3";
+			content="Le saviez-vous ?<br/> Exprimer de la gratitude permet de vivre plus longtemps, plus heureux et travailler "+
+			"avec des personnes investies et motivées ? Pratiquer la gratitude permet de se concentrer sur ce qui fonctionne, "+
+			"ce que l\'on a, et aide ainsi à compenser le sentiment de vide que nous ressentons souvent, parfois sans vraiment "+
+			"savoir pourquoi. C\'est aussi un moyen de détourner l\'attention de soi et de se concentrer sur l\'autre, donc de se sentir "+
+			"entouré.e.<br/><br/>"+
+			"<b>Challenge du jour :</b> Manifestez votre gratitude auprès de 2 collègues aujourd\'hui : parce qu\'ils·elles vous ont aidé·e "+
+			"pour un dossier compliqué, parce qu\'ils·elles sont toujours disponibles pour vous, ce que vous voulez !"+
+			"La gratitude c'est utile et on vous le prouve, avec en prime quelques exercices supplémentaires :"+
+			"<ol><li><a target=\"blank\" href=\"https://blogue.uqtr.ca/2016/12/01/les-bienfaits-de-la-gratitude\">Les bienfaits de la gratitude"+
+			"</a>, par Sylvie Robidoux pour l'UQTR</li>"+
+			"<li><a target=\"blank\" href=\"https://www.psychologies.com/Moi/Se-connaitre/Comportement/Articles-et-Dossiers/Adoptez-la-gratitude-attitude\">Adoptez la gratitude attitude</a>, Flavia Mazelin Salvi pour Psychologies</li></ol>"+
+			"<h6>Le petit + :</h6>"+
+			"A partir de ce soir et pour aussi longtemps que possible, au moment d\'aller vous coucher, notez quelque part au moins "+
+			"3 points positifs de votre journée, trois choses pour lesquelles vous êtes reconnaissant·e. "+
+			"Même si votre journée vous a paru nulle, réfléchissez fort, vous pouvez forcément +
+			"trouver trois points : un bon repas ? De la compagnie ?<br/>"+
+			"Lorsque vous ne vous sentez pas au top et que la vie vous semble morose, relisez ce que vous avez écrit auparavant. "+
+			"Effet positif garanti !";
 			break;	
 		case "4" : 
 			content="4";
@@ -136,7 +153,7 @@ function getTitle(day){
 			title="Journée efficacité";
 			break;
 		case "3" : 
-			title="Yogi yoga";
+			title="Simple comme merci !";
 			break;	
 		//WK	
 		case "4" : 
@@ -153,7 +170,7 @@ function getTitle(day){
 			title="Dessiner c'est gagner !";
 			break;
 		case "8" :
-			title="Merci";
+			title="Yogi Yoga";
 			break;
 		case "9" : 
 			title="Manager...pas facile !";
