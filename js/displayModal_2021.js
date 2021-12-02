@@ -25,7 +25,32 @@ function showDay(day){
 			" Attention cependant, le shiatsu reste une discipline médicale, personne ne saura mieux vous conseiller qu\'un professionnel donc.";
 			break;
 		case "2" :		
-			content="2";
+			content="<img id=\"list\" src=\"./img/checklist_pixabay.png\"/>"+
+			"Entre les mails, les messageries instantanées, les appels, ou juste la présence en open space, nous sommes sans cesse sollicité·e·s, "+
+			"et le plus souvent ouvert·e·s à ces sollicitations. Sauf qu\'à chaque interruption, cela prend un temps fou de revenir pleinement dans le sujet "+
+			"que l\'on traitait. On perd du temps, on est moins efficace et on part le soir, fatigué·e, avec pourtant la sensation de ne pas avoir fait grand "+
+			"chose de sa journée.<br/>"+
+			"Nous vous proposons aujourd\'hui 3 astuces pour une journée productive. <br/>"+
+			"<ol>"+
+			"<li> <b>Faire une todo-list !</b><br/>"+ 
+			"Parce que la satisfaction de barrer une tâche est vraiment très agréable, notez les tâches que vous prévoyez pour la journée. "+
+			"Attention, soyez réaliste dans vos objectifs. Le but est de faire tout ce que vous avez noté, alors ne vous surchargez pas, "+
+			"sinon vous n’en tirerez aucun bénéfice. Cela vous permet également de travailler sur la priorisation de certaines tâches. "+
+			"Cependant, notez tout, même les petites choses, un simple mail à envoyer, juste pour le plaisir de vous dire \"ça, c\'est fait\".</li>"+
+			"<li><b>Planifier des sessions de travail intensif.</b><br/> "+
+			"Bloquez des périodes pendant lequelles vous n\'accepterez aucune distraction. Le challenge : aujourd\'hui et demain, ménagez-vous un créneau "+
+			"d\'1h30 pendant lequel vous travaillerez sur un sujet, sans aucune distraction. Pour cela, coupez toutes les notifications de vos outils "+
+			"professionnels et téléphones personnels. TOUTES les notifications ;) </li>"+
+			"<li><b>Gardez du temps pour l’imprévu.</b> <br/>Vous serez probablement sollicité·e, il y aura sûrement des imprévus, c\'est normal."+
+            " C\'est pourquoi il est important de vous garder du temps pour tous ces petits aléas que vous ne pouviez pas anticiper, pour répondre "+
+			"aux questions de vos collègues par exemple. Mais attention, si cela déborde du temps imparti, expliquez gentiment qu\'il faudra discuter de "+
+			"ce sujet plus tard, quand vous serez plus disponible. "+
+			"</ol>"+
+			"<h6>Le petit + :</h6>"+
+			"Ces périodes de travail avec une concentration maximale ont été théorisées, c\'est ce qu\'on appelle le <b>deep work</b>. "+
+			"Nous vous proposons deux articles <span class=\"psst\">(Merci Welcome to The Jungle)</span> à ce sujet <span class=\"psst\">(dont l’un vous fera aussi travailler votre anglais !)</span> :"+
+			"<ol><li><a target=\"blank\" href=\"https://www.welcometothejungle.com/fr/articles/le-deep-work-pour-optimiser-son-temps-de-travail\"> Le Deep Work pour optimiser son temps de travail</a></li>"+ 
+			"<li><a target=\"blank\" href=\"https://www.welcometothejungle.com/en/articles/deep-work-rules-for-focused-success-in-a-distracted-world-by-cal-newport\"> Deep Work rules for focused success in a distracted world, by cal newport</a></li></ol>";
 			break;
 		case "3" : 
 			content="3";
@@ -108,7 +133,7 @@ function getTitle(day){
 			title="Exercice matinal";
 			break;
 		case "2" : 
-			title="Un peu de concentration !";
+			title="Journée efficacité";
 			break;
 		case "3" : 
 			title="Yogi yoga";
