@@ -62,7 +62,7 @@ function showDay(day){
 			"pour un dossier compliqué, parce qu\'ils·elles sont toujours disponibles pour vous, ce que vous voulez !"+
 			"La gratitude c\'est utile et on vous le prouve, avec en prime quelques exercices supplémentaires :"+
 			"<ol><li><a target=\"blank\" href=\"https://blogue.uqtr.ca/2016/12/01/les-bienfaits-de-la-gratitude\">Les bienfaits de la gratitude"+
-			"</a>, par Sylvie Robidoux pour l'UQTR</li>"+
+			"</a>, par Sylvie Robidoux pour l\'UQTR</li>"+
 			"<li><a target=\"blank\" href=\"https://www.psychologies.com/Moi/Se-connaitre/Comportement/Articles-et-Dossiers/Adoptez-la-gratitude-attitude\">Adoptez la gratitude attitude</a>, Flavia Mazelin Salvi pour Psychologies</li></ol>"+
 			"<h6>Le petit + :</h6>"+
 			"A partir de ce soir et pour aussi longtemps que possible, au moment d\'aller vous coucher, notez quelque part au moins "+
