@@ -67,7 +67,7 @@ function showDay(day){
 			"<h6>Le petit + :</h6>"+
 			"A partir de ce soir et pour aussi longtemps que possible, au moment d\'aller vous coucher, notez quelque part au moins "+
 			"3 points positifs de votre journée, trois choses pour lesquelles vous êtes reconnaissant·e. "+
-			"Même si votre journée vous a paru nulle, réfléchissez fort, vous pouvez forcément +
+			"Même si votre journée vous a paru nulle, réfléchissez fort, vous pouvez forcément "+
 			"trouver trois points : un bon repas ? De la compagnie ?<br/>"+
 			"Lorsque vous ne vous sentez pas au top et que la vie vous semble morose, relisez ce que vous avez écrit auparavant. "+
 			"Effet positif garanti !";
