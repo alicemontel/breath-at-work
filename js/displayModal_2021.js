@@ -60,7 +60,7 @@ function showDay(day){
 			"entouré.e.<br/><br/>"+
 			"<b>Challenge du jour :</b> Manifestez votre gratitude auprès de 2 collègues aujourd\'hui : parce qu\'ils·elles vous ont aidé·e "+
 			"pour un dossier compliqué, parce qu\'ils·elles sont toujours disponibles pour vous, ce que vous voulez !"+
-			"La gratitude c\'est utile et on vous le prouve, avec en prime quelques exercices supplémentaires :"+
+			"<br/>La gratitude c\'est utile et on vous le prouve, avec en prime quelques exercices supplémentaires :"+
 			"<ol><li><a target=\"blank\" href=\"https://blogue.uqtr.ca/2016/12/01/les-bienfaits-de-la-gratitude\">Les bienfaits de la gratitude"+
 			"</a>, par Sylvie Robidoux pour l\'UQTR</li>"+
 			"<li><a target=\"blank\" href=\"https://www.psychologies.com/Moi/Se-connaitre/Comportement/Articles-et-Dossiers/Adoptez-la-gratitude-attitude\">Adoptez la gratitude attitude</a>, Flavia Mazelin Salvi pour Psychologies</li></ol>"+
