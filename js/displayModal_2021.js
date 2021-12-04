@@ -140,11 +140,11 @@ function showDay(day){
 			"site</a>. Le contenu est en anglais, décidément, on vous fait travailler un peu quand même :)</li></ol>"+
 			"<h6>Le petit + :</h6>"+ 
 			"Si vous souhaitez éviter les écrans, vous pouvez aussi profiter d\'une promenade ou d\'une petite session ménage pour écouter du contenu tout aussi instructif, par exemple "+
-			"l\'un des contenus suivants : "+
+			"l\'une des ressources suivantes : "+
 			"<ol><li><b>Change ma vie</b> : podcast sur le développement personnel créé par Clotilde Dusoulier. Dans chaque épisode, Clotilde parle de sujets qui permettent de réfléchir "+
-			"à notre vie intérieure, et propose même des exercices pour se sentir vraiment bien. Retrouvez les épisodes : ici. </li>"+
-			"<li><b>La boîte à outils</b>, podcast délivré par Yoburo , à retrouver <a target=\"blank\" target=\"https://podcast.ausha.co/la-boite-a-outils\">ici</a>. L\'organisme "+
-			"<a target\"blank\" href=\"https://yoburo.com/\">Yoburo</a> propose des cours de yoga, sport et détente pour votre entreprise. Retrouvez sur leur site non seulement leurs "+
+			"à notre vie intérieure, et propose même des exercices pour se sentir vraiment bien. Retrouvez les épisodes : <a href=\"https://changemavie.com/\" target=\"blank\">ici</a>. </li>"+
+			"<li><b>La boîte à outils</b>, podcast délivré par Yoburo , à retrouver <a target=\"blank\" href=\"https://podcast.ausha.co/la-boite-a-outils\">ici</a>. L\'organisme "+
+			"<a target=\"blank\" href=\"https://yoburo.com/\">Yoburo</a> propose des cours de yoga, sport et détente pour votre entreprise. Retrouvez sur leur site non seulement leurs "+
 			"prestations en entreprise mais aussi leurs articles, leur blog et le podcast.</li>"+
 			"<li><b>Tedx Talks</b> : pourquoi ne pas commencer par <a target=\"blank\" href=\"https://www.youtube.com/watch?v=X4Qm9cGRub0\">\"The power of vulnerability\"</a>, de Brené Brown, avant de vous laisser guider par les suggestions de mini conférences sur "+
 			"des thématiques similaires ? </li></ol>";
