@@ -118,7 +118,36 @@ function showDay(day){
 			"envers vous-même :)</b> ";
 			break;
 		case "5" : 
-			content="5";
+			content="<img id=\"cocooning\" src=\"./img/female-5625333_1280.png\"/>"+
+			"Rien ne sert de faire semblant, on le sait, on l\'a tous déjà fait : passer une journée sur le canapé, dans un plaid, à regarder on ne sait même plus "+
+			"quoi à la télé. Nous vous proposons aujourd\'hui une sélection de documentaires et reportages inspirants pour nourrir votre esprit de positivisme et faire "+
+			"le plein de bonnes ondes ! <br/>"+
+			"<ol><li>Quelques reportages inspirants (disponibles sur Netflix) :<br/>"+
+			"<ol><li><b>From stress to happiness</b> : un documentaliste anxieux se lance dans un voyage passionnant en compagnie, entre autres, de l\'homme \"le plus heureux du monde\", "+
+			"le moine bouddhiste Matthieu Ricard.  </li>"+
+			"<li><b>Minimalism</b> : Joshua et Ryan se sont connus sur les bancs de l\'école et on même travaillé ensemble dans la même entreprise de télécommunication. "+
+			"Malgré le fait qu\'ils gagnent un bon salaire, ils ressentent constamment du stress et une grande solitude. Lorsque Joshua subit deux coups durs consécutifs dans sa vie, "+
+			"il décide de tout quitter pour revenir à une vie simple. Voyant son ami plus épanoui que jamais, Ryan décide de faire de même. </li></ol></li><br/>"+
+			"<li>Petite sélection de reportages à retrouver sur <a href=\" https://www.arte.tv/fr/search/\" target=\"blank\">Arte</a> :<br/>"+
+			"<ol><li><b>Dans la tête des champions</b> : ce reportage suit plusieurs sportifs pendant leur préparation pour les Jeux Olympiques. Grâce à des méthodes très précises, "+
+			"ces derniers entraînent leur esprit à réduire le stress, contrôler les émotions, mieux gérer la douleur ou encore obtenir le niveau de concentration nécessaire "+
+			"pour parvenir à des performances optimales.</li>"+
+			"<li><b>4 mois sur ma biosphère</b> : Corentin de Chatelperron, ingénieur, décide de vivre une expérience de 4 mois en autonomie en Thailande sur un radeau grace au low-tech. "+
+			"Il nous livre son journal de bord dans ce reportage inspirant. </li></ol></li>"+
+			"<br/><li>Ou encore …<b>Headspace</b> <span class=\"psst\">(sur Netflix mais pas que !)</span> : en se basant sur la science, Headspace vous accompagne pour mettre en place de nouvelles habitudes pour chasser "+
+			"le stress, méditer, vous sentir bien. Une application <span class=\"psst\">(payante, mais disponible en français)</span> pourra vous guider à travers de nombreux exercices. Vous pourrez aussi trouver plusieurs mini-épisodes "+
+			"sur Netflix pour vous aider à trouver le sommeil et à vous relaxer. Apprenez-en plus sur leur <a href=\"https://www.headspace.com/about-us\" target=\"blank\">"+
+			"site</a>. Le contenu est en anglais, décidément, on vous fait travailler un peu quand même :)</li></ol>"+
+			"<h6>Le petit + :</h6>"+ 
+			"Si vous souhaitez éviter les écrans, vous pouvez aussi profiter d\'une promenade ou d\'une petite session ménage pour écouter du contenu tout aussi instructif, par exemple "+
+			"l\'un des contenus suivants : "+
+			"<ol><li><b>Change ma vie</b> : podcast sur le développement personnel créé par Clotilde Dusoulier. Dans chaque épisode, Clotilde parle de sujets qui permettent de réfléchir "+
+			"à notre vie intérieure, et propose même des exercices pour se sentir vraiment bien. Retrouvez les épisodes : ici. </li>"+
+			"<li><b>La boîte à outils</b>, podcast délivré par Yoburo , à retrouver <a target=\"blank\" target=\"https://podcast.ausha.co/la-boite-a-outils\">ici</a>. L\'organisme "+
+			"<a target\"blank\" href=\"https://yoburo.com/\">Yoburo</a> propose des cours de yoga, sport et détente pour votre entreprise. Retrouvez sur leur site non seulement leurs "+
+			"prestations en entreprise mais aussi leurs articles, leur blog et le podcast.</li>"+
+			"<li><b>Tedx Talks</b> : pourquoi ne pas commencer par <a target=\"blank\" href=\"https://www.youtube.com/watch?v=X4Qm9cGRub0\">\"The power of vulnerability\"</a>, de Brené Brown, avant de vous laisser guider par les suggestions de mini conférences sur "+
+			"des thématiques similaires ? </li></ol>";
 			break;
 		case "6" :
 			content="6";
