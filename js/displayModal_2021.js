@@ -73,7 +73,49 @@ function showDay(day){
 			"Effet positif garanti !";
 			break;	
 		case "4" : 
-			content="4";
+			content="<img id=\"reading\" src=\"./img/woman2_roadlight_pixabay.png\"/>"+
+			"La communication nonviolente, apparue en France dans les années 90, est le thème passionnant du livre <b>\"Les mots sont des fenêtres (ou bien ce sont des murs)\" "+
+			"de Marshall B. Rosenberg</b>. Si ce livre ne fait pas déjà partie de votre liste de lecture, c\'est le moment de l\'y ajouter !<br/><br/>"+
+			"Vous y découvrirez comment apprendre à communiquer de manière constructive, sans jugement et sans agressivité, avec les autres mais aussi "+
+			"avec vous-même ! On pourra utiliser la communication nonviolente pour gérer des conflits, en tant que médiateur·trice par exemple. "+
+			"Le but sera alors d\'aider chaque partie à s\'exprimer de manière à ce que chacune comprenne les besoins de l\'autre, sans se sentir agressée. "+
+			"Le principe est basé sur l\'<b>empathie</b>, l'<b>objectivité</b> et l\'<b>écoute active</b>. "+
+			"Nous allons évoquer deux notions abordées dans le livre, et nous vous laisserons découvrir le reste, ça vaut vraiment le coup !<br/>"+
+			"<ol><li><b>Prendre la responsabilité de nos actions</b><br/> "+
+			"Cela paraît tout bête, et on le lit souvent, pourtant, cela ne m’a jamais autant marquée qu'avec les mots de Marshall B. Rosenberg. "+
+			"Par exemple : on se sent coincé·e dans un travail qui ne nous plaît pas forcément parce que… ben, il faut bien gagner de l\'argent. Mais en fait, "+
+			"ce travail en particulier n\'est pas le seul moyen de parvenir à cette fin. En fait, la situation est souvent confortable et, même si l\' on aime bien s\'en plaindre "+
+			"souvent, nous y trouvons une certaine satisfaction et complaisance. Car nous sommes réellement décisionnaires à chaque instant. Vous faites le choix du confort pour "+
+			"que l\'argent ne soit pas une préoccupation.<br/> Et c\'est absolument OK ! Le tout est de reconnaître que vous avez fait ce choix, mais que rien ni personne ne vous l\'a "+
+			"imposé. <br/>"+
+			"L\'exemple paraît simpliste et cliché, mais l\'idée est la même partout, tout le temps. Le tout est de prendre conscience que nous sommes maîtres de nos choix… "+
+			"et qu\'il faut donc assumer nos décisions. Je ne sais pas vous, mais le jour où j\'ai enfin décidé d\'admettre ça, je me suis sentie plus libre, ça m\'a donné envie de me poser calmement et de "+
+			"réfléchir à mes priorités dans la vie, les valeurs que l\'on souhaite défendre, nos besoins profonds qui peuvent nous rendre heureux·ses. Et à partir de là, nous pouvons "+
+			"remettre en questions plusieurs situations pour envisager un avenir plus aligné avec qui nous sommes vraiment.</li><br/>"+
+			"<li><b>La méthode OSBD</b><br/>"+
+			"La technique va être utilisée dans la gestion de conflits. Elle permet d\'exprimer une insatisfaction en 4 étapes de manière à s\'assurer que notre interlocuteur·trice "+
+			"comprenne la situation.<br/>"+
+			"<ol><li><b>O</b> pour <b>Observation</b> : à ce stade, il s\'agit d\'observer, de manière tout à fait objective, les événements qui ont mené au conflit. "+
+			"Par exemple, on ne dira pas \"Tu ne fais jamais la vaisselle de toute façon\" mais plutôt \"J\'ai fait la vaisselle 5 soirs d\'affilée cette semaine\".</li>"+
+			"<li><b>S</b> pour <b>Sentiment</b> : exprimez votre ressenti, vos émotions. On évitera les formulations vagues comme \"Je me sens mal\"; êtes-vous plutôt contrarié·e, "+
+			"triste, en colère, … Aidez vos interlocuteur·trice·s à identifier les émotions que leurs actions provoquent chez vous. Cependant, évitez au maximum d\'impliquer la "+
+			"personne dans votre ressenti. On évitera de dire \"Tu m\'énerves\" par exemple.</li>"+
+			"<li><b>B</b> pour <b>Besoin</b> : derrière chaque échange, et en particulier les critiques négatives, il y a un besoin qui n\'est pas comblé. La plupart du temps, "+
+			"le conflit émerge d\'une mauvaise compréhension entre les deux parties car le message subit de nombreux filtres pour arriver d\'une partie à l\'autre, le premier "+
+			"étant la formulation. Bien souvent, lorsque l\'on est énervé·e de surcroît, on aura tendance à accuser l\'autre, qui va se sentir agressé·e, risque de se braquer et "+
+			"la communication dès lors sera très compliquée. A ce stade, il s\'agit donc d\'exprimer le besoin qui n\'est pas satisfait, en parlant de soi, en impliquant au minimum "+
+			"l\'autre personne.</li>"+
+			"<li><b>D</b> pour <b>Demande</b> : enfin, aidez votre interlocuteur·trice à s\'améliorer, guidez le·la pour qu\'une telle situation ne se reproduise pas.</li></ol>"+
+			"<br/><b>Un exemple concret ?</b> Plutôt que de dire : \"Tu m\'énerves, tu ne fais jamais la vaisselle, c\'est toujours moi qui m\'occupe de la maison\""+
+			", vous pourriez tenter quelque chose comme : \"J\'ai fait la vaisselle tous les soirs cette semaine. Cela me contrarie que la vaisselle sale s\'accumule. Quand je rentre "+
+			"chez moi, j\'ai besoin d\'ordre pour me sentir au calme et serein·e. Voudrais-tu bien faire la vaisselle après l\'avoir utilisée s\'il te plaît ?\" </li>"+
+			"<h6>Le petit + :</h6>"+ 
+			"Cela fonctionne aussi avec les conflits internes. Vous savez, quand vous vous assaillez de critiques parce que vous n\'avez pas fait assez bien, quand vous êtes "+
+			"en colère contre vous même, quand vous vous dites que vous êtes nul·le. Ce flot de critiques est-il constructif ? Permettez-moi d\'en douter ! <br/>"+
+			"Alors, posez-vous un instant et demandez-vous : quelles actions sont problématiques ? Comment je me sens ? Pourquoi cela provoque-t-il un tel sentiment ? "+
+			"Que puis-je faire, à l\'avenir, pour ne pas renouveler cette expérience déplaisante ? "+
+			"Personne n\'est parfait et l\'important, c\'est d\'avoir la volonté de s\'améliorer. <b>Alors, si vous prônez l\'indulgence, commencez par être indulgent·e "+
+			"envers vous-même :)</b> ";
 			break;
 		case "5" : 
 			content="5";
@@ -157,7 +199,7 @@ function getTitle(day){
 			break;	
 		//WK	
 		case "4" : 
-			title="La communication non violente";
+			title="La communication nonviolente";
 			break;
 		//WK
 		case "5" : 

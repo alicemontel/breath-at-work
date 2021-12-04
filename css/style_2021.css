@@ -86,8 +86,14 @@ a:not(.menu){
 }
 
 #cowork{
+	max-width : auto;
+	max-height : 250px;
+}
+
+#reading{
 	max-width : 200px;
 	max-height : auto;
+	float : right; 
 }
 
  #list {
