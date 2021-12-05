@@ -150,7 +150,31 @@ function showDay(day){
 			"des thématiques similaires ? </li></ol>";
 			break;
 		case "6" :
-			content="6";
+			content="<img id=\"xmaspresent\" src=\"./img/woman-xmas-roadlight.png\"/>"+
+			"C\'est bientôt Noël ! La course aux cadeaux a commencé... <br/>"+
+			"Que ce soit pour des collègues, des amis ou pour la famille, pourquoi ne pas opter pour des cadeaux utiles, inspirants ou encore mieux, éco-responsables cette année ? "+ 
+			"Cela pourrait vous éviter de passer des heures dans des magasins surchauffés, et pourra vous donner la satisfaction de ne pas avoir achété juste pour acheter. <br/><br/> "+
+			"Nous vous proposons aujourd\'hui quelques sources d\'idées pour vos cadeaux : cadeaux utiles pour le bureau, cadeaux écolos, cadeaux petits prix mais utiles, "+
+			"voici quelques sources d’inspiration : <ol>"+
+			"<li><a target=\"blank\" href=\"https://www.another-way.com/blog/cadeau-ecologique-100-idees-originales\"> Les idées d'<i>another way</i></a></li>"+
+			"<li><a target=\"blank\" href=\"https://greenkit.fr/cadeaux-ecolos\">Les cadeaux écolos de <i>Green Kit</i></a></li>"+
+			"<li><a target=\"blank\" href=\"https://dreamact.eu/fr/blog/category/8/idees-cadeau-ecolo\">Les cadeaux de <i>Dream act</i></a></li></ol>"+
+			"Vous pouvez aussi opter pour les \"cadeaux expériences\" : "+
+			"<ol><li><a target=\"blank\" href=\"https://wecandoo.fr\">Wecandoo</a> propose dans toute la France des ateliers avec des artisans (cosmétiques zéro déchet, travail du cuir, cuisine, ...)</li>"+
+			"<li>Un repas dans un nouveau restaurant</li>"+
+			"<li>Une place pour un spectacle ou un concert</li></ol> "+
+			"Ou encore, pour des cadeaux ou pour la déco, vous pourriez vous essayer aux DIY ! Peut-être que les suggestions suivantes pourront vous inspirer : "+
+			"<ol><li><a target=\"blank\" href=\"https://www.deco.fr/photos/diaporama-noel-50-idees-cadeaux-fabriquer-d_3481\">Idées cadeaux de déco.fr</a></li>"+
+			"<li><a target=\"blank\" href=\"https://latelier-azimute.fr/noel-top-15-idees-cadeaux-diy\">Les DIY de l\'atelier azimuté</a></li></ol>"+
+			"<h6>Le petit + : </h6>"+
+			"Connaissez-vous le <b>Furoshiki</b> ? "+
+			"Cette tradition japonaise consiste à emballer des cadeaux ou des objets dans du tissu pour les protéger. Plus besoin de papier cadeau, souvent déchiré et "+
+			"donc impossible a réutiliser, optez pour le tissu ! En plus d\'être pratique et écologique, cette méthode créera la surprise, et en plus, c\'est esthétique ! "+
+			"On vous propose quelques articles et tutos pour en savoir plus : "+
+			"<ol><li><a target=\"blank\" href=\"https://pousse-pousse.com/blogs/astuces-ecoresponsables/furoshiki-emballage-reutilisable-ecologique\">"+
+			"Le furoshiki : l\'emballage réutilisable et écologique</a>, par pousse pousse</li>"+
+			"<li><a target=\"blank\" href=\"https://www.youtube.com/watch?v=nUEc6zlroOU\">Le furoshiki : emballage cadeau zéro déchet - Le tuto d'écoconso</a></li>"+
+			"<li><a target=\"blank\" href=\"https://www.youtube.com/watch?v=GdBJ7mOw9F8\">TUTO Furoshiki: emballages cadeaux en tissus japonais - JHIN PARIS</a></li></ol>";
 			break;
 		case "7" : 
 			content="7";
@@ -238,7 +262,7 @@ function getTitle(day){
 			title="Cadeau utilo-écolo !";
 			break;
 		case "7" : 
-			title="Dessiner c'est gagner !";
+			title="Dessinez, c\'est gagné !";
 			break;
 		case "8" :
 			title="Yogi Yoga";
