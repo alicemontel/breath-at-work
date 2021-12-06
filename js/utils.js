@@ -108,10 +108,10 @@ function fillHistory(year){
 		if(today.getMonth() == 11){
 			index = today.getDate();
 			for(i=1; i<=index; i++){
-				historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistory modal-trigger\" href=\"#modal1\" value='";
+				historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistory modal-trigger\" href=\"#modal1\" value=\"";
 				var title = getTitle(i.toString());
 				historyContent += title;
-				historyContent += "\'/></li>";
+				historyContent += "\"/></li>";
 			}
 		} else {
 			historyContent += "Il n\'y a pas encore d'astuces disponibles, reviens demain !"

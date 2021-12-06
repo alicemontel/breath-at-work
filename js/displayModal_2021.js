@@ -177,7 +177,21 @@ function showDay(day){
 			"<li><a target=\"blank\" href=\"https://www.youtube.com/watch?v=GdBJ7mOw9F8\">TUTO Furoshiki: emballages cadeaux en tissus japonais - JHIN PARIS</a></li></ol>";
 			break;
 		case "7" : 
-			content="7";
+			content="<img id=\"sketchnote\" src=\"./img/idea-g36d2c3295_1280.png\"/>"+
+			"Discipline de Facilitation graphique, le \"sketchnoting\" est une méthode de prise de notes mêlant écrit et dessin. Rassurez-vous, pas besoin d\'être un artiste "+
+			"pour utiliser efficacement cette technique.<br/><br/> Le plus souvent, la prise de note en mode sketchnote se fait en live. Mais si cela vous semble trop compliqué, "+
+			"vous pouvez commencer par des notes écrites puis, a posteriori, faire quelques planches en mode sketchnote en vous basant sur vos écrits. "+
+			"Ce sera aussi l’occasion de vous rafraîchir la mémoire concernant ce que vous avez appris et peut-être même de mieux le retenir.<br/><br/>"+
+			"De manière générale, un des avantages du sketchnoting sera la facilité à intégrer le message, particulièrement pour les personnes qui ont une mémoire visuelle. "+
+			"Le dessin, les formes, les couleurs aideront à assimiler le message et permettront de créer des associations d'idées. "+
+			"En plus de vous aider à mieux mémoriser, cette technique a l’avantage de vous faire travailler votre capacité de synthèse puisqu’il s’agit "+
+			"d’illustrer les idées principales que vous devez retenir et le tout devrait idéalement tenir sur 1 page ! <br/>"+
+			"Et comme on le disait, pas besoin d’être un grand artiste. Le sketchnote, ça s’apprend, et le but est aussi d’exprimer votre créativité, "+
+			"alors si votre planche ne ressemble pas à celle du voisin ou de la voisine, tant mieux ! :) <br/><br/>"+
+			"Pourquoi ne pas essayer lors de votre prochaine formation ou prochaine lecture ? On vous donne trois petites ressources pour en apprendre + sur le sketchnote :"+
+			"<ol><li>Apprenez avec <a target=\"blank\" href=\"https://www.sketchnotes-facile.com/les-sketchnotes-cest-quoi\">avec Sketchnote facile</a></li>"+
+			"<li>ou bien avec le <a target=\"blank\" href=\"https://primabord.eduscol.education.fr/qu-est-ce-qu-un-sketchnote\">ministère de l\'éducation</a><span class=\"psst\">(rien que ça)</span></li>"+
+			"<li>ou encore avec la plateforme <a href=\"https://www.bienenseigner.com/sketchnote\" target=\"blank\">Bien enseigner</a></li></ol>";
 			break;
 		case "8" : 
 			content="8";
