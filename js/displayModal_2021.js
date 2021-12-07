@@ -194,7 +194,22 @@ function showDay(day){
 			"<li>ou encore avec la plateforme <a href=\"https://www.bienenseigner.com/sketchnote\" target=\"blank\">Bien enseigner</a></li></ol>";
 			break;
 		case "8" : 
-			content="8";
+			content="Aujourd’hui, prenons soin de nous, parlons yoga. <br/><br/>"+
+			"<center><iframe width=\"450\" height=\"315\" src=\"https://www.youtube.com/embed/jt3IwerJYTI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center>"+
+			"<br/>Le yoga n\'est pas réservé aux personnes qui se lèvent à 5h du matin pour méditer pendant 2 heures vous savez ? Chacun·e, à son niveau, peut tirer de nombreux bienfaits d\'une pratique plus ou moins approfondie du yoga. "+
+			"Particulièrement dans le monde du travail, et même plus si votre travail implique de rester assis·e sur une chaise pendant une (très) grande partie de la journée. <br/>"+
+			"<br/>Les arguments pour la pratique du yoga sont nombreux : corriger votre posture, gagner en souplesse, s’étirer, calmer le stress et l’anxiété, … <br/>"+
+			"A chaque forme de yoga ses avantages : des pratiques plutôt contemplatives pour travailler la méditation et le centrage sur soi ou une pratique plus active pour le renforcement musculaire, chacun peut y trouver son compte. <br/>"+
+			"<br/><img id=\"yoga\" src=\"./img/yoga_clkerfreevectorimages_pixabay.png\"/>"+
+			"Pas convaincu·e·s ? Et si vous lisiez ces deux articles pour vous en persuader ? "+
+			"<ol><li><a target=\"blank\" href=\"https://www.welcometothejungle.com/fr/articles/les-bienfaits-du-yoga-au-travail\">Les bienfaits du yoga au travail</a>, selon Welcome to the Jungle</li>"+
+			"<li><a target=\"blank\" href=\"https://blog.gymlib.com/fr/sujets-rh/marque-employeur/les-bienfaits-du-yoga-au-travail\">Les bienfaits du yoga au travail</a>, selon Gymlib</li></ol>"+
+			"<h6>Le petit + :</h6>"+ 
+			"On vous voit venir avec vos \"oui mais je n’ai vraiment pas le temps\" et vos \"De toute façon, je n’ai pas de tapis pour faire du yoga\". "+
+			"Il est tout à fait possible de faire du yoga sans tapis, au travail, sur votre chaise, en 5 minutes !<br/>"+
+			"<a target=\"blank\" href=\"https://www.olybe.com/notre-blog/2019/6/12/yoga-au-bureau-6-exercices-pour-se-dtendre-raliser-sur-sa-chaise\">Voici quelques exercices "+
+			"avec OLY Be</a> qui pourraient vous être utiles si vraiment vous êtes coincé·e au bureau avec un agenda de ministre...mais rappelez-vous tout de même que prendre du temps "+
+			"pour soi, c\'est pri-mor-dial ! ";
 			break;
 		case "9" : 
 			content="9";
@@ -279,7 +294,7 @@ function getTitle(day){
 			title="Dessinez, c\'est gagné !";
 			break;
 		case "8" :
-			title="Yogi Yoga";
+			title="Namasté !";
 			break;
 		case "9" : 
 			title="Manager...pas facile !";

@@ -96,7 +96,7 @@ a:not(.menu){
 	float : right; 
 }
 
- #list {
+ #list, #yoga {
 	max-width : 100px;
 	max-height : 100px;
 	float : right;
