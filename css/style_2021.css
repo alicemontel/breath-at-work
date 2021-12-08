@@ -90,7 +90,7 @@ a:not(.menu){
 	max-height : 250px;
 }
 
-#reading, #cocooning, #xmaspresent, #sketchnote{
+#reading, #cocooning, #xmaspresent, #sketchnote, #manager{
 	max-width : 200px;
 	max-height : auto;
 	float : right; 

@@ -212,7 +212,19 @@ function showDay(day){
 			"pour soi, c\'est pri-mor-dial ! ";
 			break;
 		case "9" : 
-			content="9";
+			content="<img id=\"manager\" src=\"./img/female-g81533f8f3_1920.png\"/>"+
+			"En cette période de fin d\'année, nombreux sont celles et ceux qui ont dû avoir leur entretien annuel avec leur manager. On attend généralement beaucoup de ces "+
+			"personnes qui sont censées nous aider dans notre carrière professionnelle : soutien, reconnaissance, empathie, exemplarité… Être manager, ce n’est pas facile ! <br/>"+
+			"Et si, pour une fois, on essayait de se mettre à leur place ? :) <br/><br/>"+
+			"Car vous savez, avant d\'être des managers, ce sont des êtres humains. Comme vous, ils·elles sont imparfaits, ont le droit à l’erreur, ont \"des jours sans\". "+
+			"Quand on parle d\'indulgence, de bienveillance et de gratitude, cela s\'applique à tout le monde. <b>TOUT</b> le monde.<br/><br/>"+ 
+			"Alors on vous propose deux petits articles pour vous donner une idée de quelques uns des nombreux défis que doivent relever les managers, chef·fe·s d\'équipes et dirigeant·e·s au quotidien : "+
+			"<ol><li><a href=\"https://ismat.com/15-difficultes-majeures-rencontrees-par-les-managers-avec-leurs-equipes\" target=\"blank\">15 difficultés majeures rencontrées par les managers avec leurs équipes</a>, par ismat</li>"+
+			"<li><a href=\"https://www.dynamique-mag.com/article/manager-difficile.22421 \" target=\"blank\">Pourquoi manager est-il si difficile ?</a>, pour Dynamique Mag</li></ol>"+
+			"Les \"merci\" et \"bravo\" ne sont pas réservés aux managers pour féliciter leurs équipes, ça marche aussi dans l\'autre sens. "+
+			"On vous fait souvent un feedback sur votre travail et votre attitude professionnelle, mais vous avez tout autant le droit d\'en faire également. "+
+			"Attention cela dit, on parle de feedback, constructif et bienveillant donc ;) <br/><br/>"+
+			"Quand quelque chose ne va pas, dites-le. Quand quelque chose va bien, dites-le d\'autant plus !";
 			break;
 		case "10" : 
 			content="10";
