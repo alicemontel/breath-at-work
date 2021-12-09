@@ -227,7 +227,28 @@ function showDay(day){
 			"Quand quelque chose ne va pas, dites-le. Quand quelque chose va bien, dites-le d\'autant plus !";
 			break;
 		case "10" : 
-			content="10";
+			content="<img id=\"medit\" src=\"./img/yoga_clkerfreevectorimages_pixabay.png\"/>"+
+			"Mettons du zen dans notre vie !<br/>"+
+			"Aujourd\'hui, intéressons-nous à une pratique apportant de nombreux bénéfices aussi bien à notre corps qu\'à notre esprit ... la méditation !<br/>"+
+			"La méditation favorise la gestion de l\'anxiété, aide à gérer l\'angoisse et à canaliser nos émotions. Elle permet également "+
+			"d\'accroître notre créativité. Elle a également de nombreux effets positifs sur notre mémoire et notre santé.<br/><br/>"+
+			"De nombreuses études se penchent sur la méditation et ... plusieurs bienfaits de la méditation sont scientifiquement prouvés ! "+
+			"Ces deux articles <span class=\"psst\">(parmi tant d\'autres)</span> nous en parlent : "+
+			"<ol><li><a target=\"blank\" href=\"https://www.sciencesetavenir.fr/sante/cerveau-et-psy/meditation-quels-sont-ses-bienfaits-selon-la-science_147259\">"+
+			"Méditation : quels sont ses bienfaits selon la science ?</a>, sur Science et avenir</li>"+
+			"<li><a target=\"blank\" href=\"https://www.futura-sciences.com/sante/actualites/vie-top-5-bienfaits-meditation-63685\">Top 5 des bienfaits de la méditation</a>, sur Futura Science</li></ol>"+
+			"Mais débuter la méditation n\'est pas chose aisée, on peut se perdre à travers différentes vidéos youtubes, écouter des podcasts "+
+			"<span class=\"psst\">(choisis un peu au hasard)</span>, ou encore lire des livres <span class=\"psst\">(dont on ne comprend pas toujours le sens)</span>.<br/> "+
+			"Une séance de méditation n\'a pas besoin de durer longtemps, quelques minutes suffisent au début et avec la pratique, vous pourrez les rallonger de plus en plus."+
+			"Gardez également à l\'esprit que méditer ne signifie pas ne penser à rien, mais entre autres un retour à l\'instant présent, cela demande un grand effort de concentration !"+			
+			"<h6>Le petit + :</h6>"+
+			"Pour débuter la méditation, vous pouvez essayer une application de méditation reconnue et surtout ludique : <a target=\"blank\" href=\"https://www.petitbambou.com/fr\">"+
+			"<b>Petit Bambou</b></a> ! "+
+			"Cette application vous permettra de commencer la méditation en douceur avec les premières séances qui sont gratuites et qui durent une douzaine de minutes. "+
+			"Vous pourrez vous abonner si vous en voulez plus :) <br/>"+
+			"Aussi si vous commencez Petit Bambou, ne vous arrêtez pas à la première séance ! Au début, vous aurez peut-être du mal à vous concentrer "+
+			"<span class=\"psst\">(c\'est long 12 min si on n\'a pas l\'habitude de tenir en place)</span>. Mais si vous persévérez, vous verrez qu\'après seulement "+
+			"quelques leçons, vous finirez par apprécier ce moment pour vous.";
 			break;
 		case "11" : 
 			content="11";
