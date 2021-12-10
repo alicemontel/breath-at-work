@@ -251,49 +251,49 @@ function showDay(day){
 			"quelques leçons, vous finirez par apprécier ce moment pour vous.";
 			break;
 		case "11" : 
-			content="11";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "12" : 
-			content="12";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "13" : 
-			content="13";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "14" : 
-			content="14";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "15" : 
-			content="15";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "16" : 
-			content="16";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "17" : 
-			content="17";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "18" : 
-			content="18";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "19" : 
-			content="19";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "20" : 
-			content="20";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "21" : 
-			content="21";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "22" : 
-			content="22";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "23" : 
-			content="23";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "24" : 
-			content="24";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "25" : 
-			content="25";
+			content="Encore un petit peu de patience... (je suis en retard)";
 			break;						
 	}
 	document.getElementById("titleModal").innerHTML=getTitle(day);
