@@ -216,7 +216,7 @@ function showDay(day){
 			"En cette période de fin d\'année, nombreux sont celles et ceux qui ont dû avoir leur entretien annuel avec leur manager. On attend généralement beaucoup de ces "+
 			"personnes qui sont censées nous aider dans notre carrière professionnelle : soutien, reconnaissance, empathie, exemplarité… Être manager, ce n’est pas facile ! <br/>"+
 			"Et si, pour une fois, on essayait de se mettre à leur place ? :) <br/><br/>"+
-			"Car vous savez, avant d\'être des managers, ce sont des êtres humains. Comme vous, ils·elles sont imparfaits, ont le droit à l’erreur, ont \"des jours sans\". "+
+			"Car vous savez, avant d\'être des managers, ce sont des êtres humains. Comme vous, ils·elles sont imparfait·e·s, ont le droit à l’erreur, ont \"des jours sans\". "+
 			"Quand on parle d\'indulgence, de bienveillance et de gratitude, cela s\'applique à tout le monde. <b>TOUT</b> le monde.<br/><br/>"+ 
 			"Alors on vous propose deux petits articles pour vous donner une idée de quelques uns des nombreux défis que doivent relever les managers, chef·fe·s d\'équipes et dirigeant·e·s au quotidien : "+
 			"<ol><li><a href=\"https://ismat.com/15-difficultes-majeures-rencontrees-par-les-managers-avec-leurs-equipes\" target=\"blank\">15 difficultés majeures rencontrées par les managers avec leurs équipes</a>, par ismat</li>"+
@@ -251,7 +251,50 @@ function showDay(day){
 			"quelques leçons, vous finirez par apprécier ce moment pour vous.";
 			break;
 		case "11" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<img id=\"reading\" src=\"./img/woman2_roadlight_pixabay.png\"/>"+
+			"Si ce livre ne fait pas déjà partie de votre liste de lecture, c’est le moment de l’y ajouter ! "+
+			"<span class=\"psst\">(oui, vous avez déjà entendu ça la semaine dernière, la liste de lecture s\'allonge)</span><br/>"+
+			"Parlons cette fois du best-seller de Don Miguel Ruiz : <b>\"Les quatre accords Toltèques\"</b>.<br/><br/>"+
+			"Entre nous, rien ne vaut la lecture du livre, qui ne fait qu\'une petite centaine de pages, format parfait à emmener partout pour le lire, le relire "+
+			"et le re-relire dans le tram, le métro, le train, sous le plaid avec un chocolat chaud. <br/>"+
+			"Mais pour les pressé·e·s et les très occupé·e·s, on vous fait quand même un petit compte-rendu des apprentissages de l’ouvrage !<br/><br/>"+
+			"Les accords toltèques sont 4 principes, 4 résolutions, 4 … accords, à passer avec vous-même, qui permettent de transformer votre quotidien "+
+			"<span class=\"psst\">(dans le bon sens évidemment)</span>. Pour certains, ce code de conduite permettrait même d\'accéder au bonheur.<br/><br/>"+
+			"<ol><li><b>Que votre parole soit impeccable </b><br/>"+
+			"L\'idée derrière ce principe est d\'énoncer les faits, sans aucun jugement. Le but est de parler vrai, de manière consciente. "+
+			"On abandonnera donc toutes les critiques peu constructives, qu\'elles soient destinées aux autres… ou à soi-même ! Et oui, pour commencer, supprimez de vos "+
+			"habitudes les petits commentaires comme \"Je suis nul·le\", \"Je ne fais pas assez bien\". En fait, en arrêtant ces reproches, souvent infondés et encore plus "+
+			"souvent inutiles, vous parviendrez d\'autant mieux à appliquer ce principe dans vos échanges avec les autres. "+
+			"Non seulement il y a fort à parier que vos relations interpersonnelles s\'en trouveront améliorées, mais vous serez également débarrassé·e d\'une grande part "+
+			"de négativité, et ça, c\'est un bon premier pas vers un quotidien plus agréable ! </li><br/>"+
+			"<li><b>N’en faites pas une affaire personnelle </b><br/>"+
+			"Ce second accord fait écho à certaines notions abordées dans la théorisation de la communication nonviolente. Il s\'agit de reconnaître que le discours "+
+			"tenu par une personne est une projection de ses propres émotions, de sa vérité, de ses besoins. En fait, qu\'il s\'agisse de vous ou de quelqu\'un d\'autre en face, "+
+			"le discours sera peut-être le même. "+
+			"Dans une certaine mesure, on peut voir de l\'égoïsme dans le fait de tout prendre personnellement. Cela reviendrait à supposer que tout le monde ne parle que de vous. "+
+			"D\'un autre côté, cet accord est à aborder avec un certain recul. Si on vous dit \"Tu fais du bon travail\", on parle bien de votre travail et il faut accepter "+
+			"la reconnaissance. Si on vous dit \"Tu étais en retard au meeting ce matin, ce serait bien d\'être à l\'heure la prochaine fois\", et que vous étiez vraiment "+
+			"en retard, acceptez la remarque. "+
+			"En bref, l'idée de cet accord : prenez du recul <span class=\"psst\">(vraiiiiment plus facile à dire qu\'à faire, on vous l\'accorde)</span>.</li><br/>"+
+			"<li><b>Ne faites pas de suppositions </b><br/>"+
+			"Miguel Ruiz parle de \"poison émotionnel\". Combien de fois avez-vous entendu \"la clé, c\'est la communication\" ?"+
+			" Pourquoi s\'emplir la tête d\'hypothèses, de suppositions tordues, d\'interprétations, qui souvent, avouons-le, mènent à des scénarios catastrophes ? "+
+			"Souvent, en posant simplement une question, nous pourrions nous épargner bien des tracas. Et si vous ne souhaitez pas poser de question, alors au moins, "+
+			"prenez les choses pour ce qu\'elles sont, en restant de le factuel, observable, objectif. "+
+			"Et puisqu\'il est cependant humain de céder à l\'interprétation, peut-être pourriez-vous essayer de ne pas imaginer le pire mais plutôt d\'envisager un "+
+			"scénario positif pour une fois ? :)</li><br/>"+
+			"<li><b>Faites toujours de votre mieux </b><br/>"+
+			"Faire de son mieux, ça ne veut pas dire être parfait·e <span class=\"psst\">(de toute façon, ce n\'est pas possible)</span>. Ca ne veut pas non plus dire "+
+			"tout faire à 200% sans jamais prendre un instant pour souffler. "+
+			"Cela signifie simplement être à 100% de votre capacité à l\'instant T sur ce que vous faites. "+
+			"Si vous êtes malade, fatigué·e, vous ne pourrez pas faire autant qu\'un jour où vous avez dormi 10h et êtes en pleine forme. Et c\'est parfaitement OK ! "+
+			"Cela veut aussi dire qu\'il ne faut pas vous en vouloir si vous avez pris personnellement la dernière remarque de votre collègue. Les accords Toltèques, "+
+			"on les intègre avec la pratique, et si la volonté de bien faire était là, pardonnez-vous ce petit écart, cela ne veut pas forcément dire que nous ne faisiez pas de "+
+			"votre mieux. <br/> Faire de son mieux, c\'est aussi faire ce qu\'il y a de mieux pour soi. Donc si vous jugez que pour mieux repartir, "+
+			"le mieux à faire est de prendre un jour off dans le canapé à manger des chocolats, alors allez-y, sans culpabilité ! </li>"+
+			"<h6>Le petit + :</h6>"+
+			"Il y a même désormais un cinquième accord Toltèques qui permet de compléter et de nuancer le second accord.<br/>"+
+			"On vous laisse tester ces principes dans votre quotidien et nous dire ce que vous en avez pensé !";			
 			break;
 		case "12" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
