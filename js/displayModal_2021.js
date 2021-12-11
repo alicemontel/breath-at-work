@@ -297,7 +297,19 @@ function showDay(day){
 			"On vous laisse tester ces principes dans votre quotidien et nous dire ce que vous en avez pensé !";			
 			break;
 		case "12" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<center><img id=\"reindeer\" src=\"./img/reindeer_elsiebeedesigns_pixabay.png\"/></center>"+
+			"Puisque Noël rime souvent avec cadeaux mais également avec moments conviviaux en famille ou entre amis autour d\'un bon repas <span class=\"psst\">(on vous voit "+
+			"venir les gourmands ! :) )</span>, nous vous proposons aujourd\'hui quelques desserts de fête, faciles à réaliser chez vous, originaux et diversifiés !<br/><br/>"+
+			"Une belle occasion de découvrir de nouvelles recettes et de passer un bon moment aux fourneaux. En plus, il y en a pour tous les goûts, de quoi satisfaire "+
+			"les vegan, les intolérant·e·s au gluten et même celles et ceux qui n\'aiment pas le chocolat !<br/><br/>"+
+			"Place à la sélection du jour :"+
+			"<img id=\"gingerbread\" src=\"./img/doll-g2960441ed_1280.png\"/>"+
+			"<ol><li><a target=\"blank\" href=\"http://leaf-blog.com/buche-de-noel-vegan-passion-coco\">Bûche de Noël passion coco - vegan</a></li>"+
+			"<li><a target=\"blank\" href=\"https://www.sweetandsour.fr/gourmandise-2/dessert-de-noel-buche-facon-millefeuilles-poire-amande-chocolat-vegan-sans-gluten\">"+
+			"Bûche façon millefeuilles poire, amande, chocolat - vegan, sans gluten</a></li>"+
+			"<li><a target=\"blank\" href=\"https://www.galasblog.com/trianon-noel-vegan-sans-gluten\">Trianon choco-noisettes - sans gluten</a></li>"+
+			"<li><a target=\"blank\" href=\"https://www.guydemarle.com/recettes/buche-exotique-coco-sans-lactose-21341\">Bûche exotique coco - sans lactose</a></li></ol>"+
+			"Bon dimanche !";
 			break;
 		case "13" : 
 			content="Encore un petit peu de patience... (je suis en retard)";

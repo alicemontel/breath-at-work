@@ -89,6 +89,10 @@ a:not(.menu){
 	max-width : auto;
 	max-height : 250px;
 }
+#reindeer {
+	max-width : auto;
+	max-height : 150px; 
+ }
 
 #medit{
 	max-width : auto;
@@ -102,7 +106,7 @@ a:not(.menu){
 	float : right; 
 }
 
- #list, #yoga {
+ #list, #yoga, #gingerbread{
 	max-width : 100px;
 	max-height : 100px;
 	float : right;
