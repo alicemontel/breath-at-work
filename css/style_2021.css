@@ -89,7 +89,7 @@ a:not(.menu){
 	max-width : auto;
 	max-height : 250px;
 }
-#reindeer {
+#reindeer, #conges {
 	max-width : auto;
 	max-height : 150px; 
  }

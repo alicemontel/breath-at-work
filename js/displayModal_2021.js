@@ -312,7 +312,31 @@ function showDay(day){
 			"Bon dimanche !";
 			break;
 		case "13" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<center><img id=\"conges\" src=\"./img/conges.JPG\"/><br/>"+
+			"Partez en congés l’esprit serein !</center><br/>"+ 
+			"Un départ en vacances, ça se prépare tranquillement <span class=\"psst\">(et surtout à l’avance !)</span>, en suivant quelques règles indispensables. "+
+			"Nous vous proposons aujourd\'hui quelques conseils pour partir sereinement :"+
+			"<ol><li>Identifiez les tâches qui doivent absolument être terminées avant votre départ.<br/>"+
+			"Faites une liste de tous les sujets qui doivent être traités avant de partir, tous les mails en attente que vous aviez prévu d\'envoyer. "+
+			"Pensez également à capitaliser, tracer dans un endroit partagé toutes les notes qui pourraient être utiles à vos collègues en votre absence.</li><br/>"+
+			"<li>Préparez votre retour.<br/>Il ne s\'agit pas déjà de penser à ce que vous devrez faire en revenant, mais assurez-vous que tout sera opérationnel "+
+			"à votre retour. Vous pouvez par exemple prendre des notes sur vos sujets en cours pour vous aider à vous en rappeler, vérifier que vos mots de passe "+
+			"seront toujours valides. Vous pouvez également stocker, de manière sécurisée évidemment, vos mots de passe essentiels, parfois qu\'ils vous sortent de l\'esprit "+
+			"<span class=\"psst\">(signe que les congés ont fait du bien !)</span>.</li><br/>"+
+			"<li>Déléguez les tâches/missions qui doivent être faites en votre absence.<br/>"+
+			"Réunissez votre équipe afin de présenter les dossiers et sujets en cours, l\'état d\'avancement, les potentielles problématiques, ... Pensez à donner un "+
+			"maximum d\'informations pour ne pas que vos collègues soient contraints de vous contacter pendant vos congés. "+
+			"Identifiez ensuite les personnes relais en votre absence (en fonction de leur envie et de leurs compétences sur les différents sujets). "+
+			"Une fois ces personnes identifiées, attribuez leur vos tâches habituelles. N\'hésitez pas à faire un récapitulatif, par mail par exemple, juste avant de partir.</li><br/>"+
+			"<li>Prévenez vos contacts. <br/>"+
+			"Prévenez vos collègues en amont et mettez également en avant les jours où vous serez indisponible dans votre agenda. N\'oubliez pas de mettre en place un mail "+
+			"automatique, sobre et efficace en évitant les émoticônes et les blagues.</li><br/>"+
+			"<li>Faites le tri dans votre ordinateur et votre boîte mail. <br/>"+
+			"Pour ne pas perdre de temps à votre retour de congés, veillez à laisser le moins de mails possibles à traiter à votre retour. "+
+			"Essayez de trier au maximum vos documents, dégagez votre bureau d’ordinateur de tout fichier inutile. </li></ol>"+
+			"<h6>Le petit + :</h6>"+
+			"Quelques astuces pour organiser votre boîte mail (merci Welcome to the Jungle!) :<br/>"+
+			"<a target=\"blank\" href=\"https://www.welcometothejungle.com/fr/articles/productivite-six-astuces-mieux-gerer-ses-mails-messagerie\">Boîte mail anarchique ? 7 conseils pour une organisation optimale</a>";
 			break;
 		case "14" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
@@ -399,7 +423,7 @@ function getTitle(day){
 			title="Home cooking";
 			break;
 		case "13" : 
-			title="Partez serein·e";
+			title="Partez tranquille";
 			break;
 		case "14" :
 			title="Les méfaits du présentéisme";
