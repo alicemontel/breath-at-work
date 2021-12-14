@@ -339,7 +339,35 @@ function showDay(day){
 			"<a target=\"blank\" href=\"https://www.welcometothejungle.com/fr/articles/productivite-six-astuces-mieux-gerer-ses-mails-messagerie\">Boîte mail anarchique ? 7 conseils pour une organisation optimale</a>";
 			break;
 		case "14" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<img style=\"max-width:170px;max-height:220px;float:right;padding-left:10px;\" id=\"work\" src=\"./img/tired-niyosstudio_pixabay.png\"/>Revenons aujourd\'hui sur un mal qui touche particulièrement les Français·e·s : le <b>présentéisme</b>. <br/><br/>"+
+			"Dans l\'absolu, le présentéisme est le simple fait d\'être présent·e au travail. Il est ici employé dans son sens courant, connoté plutôt négativement, dénonçant une présence trop importante au travail. <br/>"+
+			"Il peut être invoqué pour différents motifs : un besoin de reconnaissance, un surinvestissement au travail pour fuir ses soucis personnels, montrer qu\'on est là en espérant une promotion,...<br/>"+
+			"Eh ben, vous savez quoi ? Aucune de ces raisons n\'est valable.<br/>"+
+			"Le présentéisme peut prendre plusieurs formes : faire des journées à rallonges, ne pas prendre ses congés, travailler en étant malade, ..."+
+			"Ces comportements sont mauvais à tout niveau : pour votre santé et votre équilibre mais aussi pour l\'entreprise puisque le présentéisme a en fait un coût non négligeable.<br/> "+
+			"Imaginons, cas n°1, un·e employé·e qui reste au boulot jusqu\'à 21h pour finir ses tâches. Il/elle n\'a quasiment pas fait de pause et pris un sandwich rapido le midi. "+
+			"On pourrait se dire \"Wow, quelle implication dans son travail, c\'est chouette !\". Malheureusement, ce qui peut se cacher derrière cela peut être un peu moins cool : "+
+			"<ol>"+
+			"<li> Une surcharge de travail </li>"+
+			"<li> Une mauvaise organisation </li>"+
+			"<li> Un perfectionnisme nocif </li>"+
+			"<li> Bref, pas que du positif ! </li>"+
+			"</ol>"+
+			"Mais cette attitude est dangereuse pour soi et pour l\'entreprise. Un arrêt de travail pour dépression ou burn-out est bien plus long et a plus d\'impact que de s\'imposer un rythme raisonnable au quotidien. "+
+			"Et d\'un point de vue humain, ce n\'est pas top d\'en arriver là, n\'est-ce pas ?<br/><br/>"+
+			"Cas n°2, l'employé·e qui est \"présent·e\" jusqu\'à 21h, mais qui fait des pauses, disparaît souvent en réunion on ne sait pas trop pour quoi ni avec qui, garde son PC allumé pour laisser croire qu\'il est connecté. "+
+			"Outre le fait que la productivité est généralement moindre, cela entretient la culture du présentéisme et les autres risquent de penser qu\'il faut absolument faire de même pour être reconnu·e et pour évoluer au sein de l\'entreprise. "+
+			"On perd alors toute appréciation de la qualité du travail. <br/><br/>"+
+			"En fait, voir un collaborateur encore en ligne à 20h ne prouve rien de sa productivité ni de son implication. <b>Au final, les horaires importent peu, ce qui compte c\'est que le travail soit fait, non ?</b><br/>"+
+			"En somme, il suffit de remettre les choses à leur place : le travail aux heures de travail <span class=\"psst\">(souvenez-vous, la plage : 8h-19h)</span>, les congés en congés, et si vous êtes malade, reposez-vous, vous n\'en serez que plus efficace à votre retour ! <br/>"+
+			"<h6>Pour aller + loin :</h6>"+
+			"Ce petit billet n\'est qu\'une mince introduction car il me semble important que nous prenions tous conscience de cette tendance en entreprise et que nous réfléchissions à des règles pour retrouver un mode de travail sain et équilibré. "+
+			"Voici donc quelques articles intéressants sur le sujet si vous souhaitez approfondir un peu :"+
+			"<ol>"+
+			"<li><a href=\"https://www.welcometothejungle.com/fr/articles/comment-arreter-presenteisme\" target=\"blank\">Comment en finir avec le présentéisme </a> - Welcome to the Jungle </li>"+
+			"<li><a href=\"\" target=\"blank\">L\’absentéisme moral, vous connaissez ?</a> - My Happy Job </li>"+
+			"<li><a href=\"https://www.manager-go.com/ressources-humaines/exces-de-presence-au-travail.htm\" target=\"blank\">Présentéisme au travail</a> - Raphaële GRANGER sur manager-go</li>"+
+			"</ol>";
 			break;
 		case "15" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
