@@ -370,7 +370,26 @@ function showDay(day){
 			"</ol>";
 			break;
 		case "15" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<img id=\"laptop\" src=\"./img/laptop-sara_torda_pixabay.png\"/>"+
+			"Aujourd'hui, ce n'est pas une simple astuce que nous partageons mais un droit ! Un droit inscrit dans le code du travail, rien que ça ! <br/>"+
+			"Saviez-vous que le <b>droit à la déconnexion</b> n'est apparu officiellement dans le Code du travail qu'en 2016, dans le cadre de la "+
+			"négociation obligatoire sur la qualité de vie au travail ? Il était temps, non ? <br/><br/>"+ 
+
+			"En 2016, 37% des actifs sont connectés hors temps de travail (étude Eléas, 2016). Pourtant, l'équilibre entre vie professionnelle et vie personnelle est essentiel."+ 
+			" Et même si vous n'avez que le boulot dans votre vie, dites-vous que faire une pause est essentiel pour être concentré·e, efficace ... bref, performant·e!"+ 
+			" Le travail est générateur de stress, c'est normal, mais il faut s'organiser du temps pour évacuer ce stress et se changer les idées. "+
+			"Ainsi, vous n'êtes pas tenu·e de consulter vos mails et messages hors de vos horaires de travail et encore moins le week-end ou lors de vos congés. <br/><br/> "+
+			"Alors je vous propose un double exercice <span class=\"psst\">(à appliquer aujourd'hui, mais aussi les jours suivants évidemment)</span>: <br/>"+
+			"<ol>"+ 
+			"<li>Pour <b>vous</b> : fixez-vous un horaire maximum de connexion. Admettons, 19h, très bien. À 18h45 donc, vous allez consulter une dernière fois votre boite mail, votre messagerie et répondre aux messages les plus urgents."+
+			" Attention, à 19h, on lève les mains, le reste sera envoyé le lendemain !"+
+			" Après cela, fermez votre ordinateur et rangez-le. Il suffit même de le déplacer à l'autre bout du bureau, trouvez un geste à faire qui indique à votre cerveau : \"J\'ai fini pour aujourd\'hui !\".</li>"+
+			"<li>Pour <b>les autres</b> : même conseil, différent point de vue. Arrêtez donc d\'envoyer des mails à des horaires indécents ! Pour rappel, la plage de travail s'étend en principe de 8h à 19h. Si vous traitez ce sujet si tard, c'est qu'il peut probablement attendre le lendemain. Préparez donc votre mail si vous y tenez, mais rien ne vous empêche d'attendre le lendemain pour l'envoyer."+
+			"Pourquoi faire cela ? Parce que nous sommes ancrés dans une culture du présentéisme et qu'il faut, pour le bien de tous, briser cette idéologie. Être connecté·e à 21h, ça n'a rien à voir avec \"être performant·e\" ou \"investi·e\". Et imaginez vous à la place de vos collègues, si vous voyiez un mail, réussiriez-vous à l'ignorer complètement sans que cela ne vous trotte dans la tête ? Alors, n'imposez pas cela aux autres.</li>"+
+			"</ol>"+
+			"<h6>Le petit + :</h6>"+
+			"Votre entreprise doit mettre à disposition sa charte sur le droit à la déconnexion. Elle décrit vos droits, de rares exceptions et détaille ce qui est attendu, ou non."+
+			" En aviez-vous conscience ? L\'avez-vous déjà lue ? C\'est peut-être l\'occasion d'y jeter un coup d\oeil !";"Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "16" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
