@@ -392,7 +392,13 @@ function showDay(day){
 			" En aviez-vous conscience ? L\'avez-vous déjà lue ? C\'est peut-être l\'occasion d'y jeter un coup d\oeil !";"Encore un petit peu de patience... (je suis en retard)";
 			break;
 		case "16" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="Et si vous parliez à vos collègues aujourd\'hui ? Mais pas pour parler du dossier que vous devez rendre demain soir, plutôt pour parler de vous, d\'eux et d\'elles ? <br/><br/>"+
+			"Travailler au sein d\'une équipe, c\'est quand même plus sympa quand tout le monde s\'entend bien ! Alors forcément, on ne peut pas être méga copain-copine avec tout le monde, néanmoins cela n\'empêche pas à minima d\'être poli·e et sympathique avec tout le monde. "+
+			" Avoir une bonne ambiance en équipe, ça motive plus, ça incite à l\'entraide, ce qui est essentiel. Mais outre cela, le fait d\'échanger avec les membres de votre équipe peut aider à développer votre empathie ou au moins à l\'exprimer. "+
+			"Il est bon de savoir un peu où en est votre collègue dans sa vie pour réfléchir à la manière dont vous allez vous adresser à lui·elle. Il·Elle vous en sera probablement reconnaissant·e ! <br/><br/>"+
+			"Alors l\'objectif du jour, c\'est de <b>passer un moment avec vos collègues sans parler boulot</b> ! <br/>"+
+			"Il y a plein de possibilités : un jeu en ligne, discuter le temps d\'une pause café, un simple petit message \"Comment ça va ?\", à vous de décider :) <br/> "+
+			"<center><img id=\"team\" src=\"./img/teamwork_geralt_pixabay.png\" /></center> <br/> Bonne journée !";
 			break;
 		case "17" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
