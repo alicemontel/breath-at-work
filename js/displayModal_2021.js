@@ -401,7 +401,27 @@ function showDay(day){
 			"<center><img id=\"team\" src=\"./img/teamwork_geralt_pixabay.png\" /></center> <br/> Bonne journée !";
 			break;
 		case "17" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<img id=\"breathe\" src=\"./img/yoga_clkerfreevectorimages_pixabay.png\"/>"+
+			"Aujourd\'hui, nous vous proposons de travailler sur vous, votre concentration et votre gestion du stress.<br/><br/>"+
+			"Nous allons vous exposer un (parmi tant !) <b>exercice de respiration</b>, particulièrement efficace. Et selon votre récéptivité à ce genre d'exercices, vous pourrez creuser, ou non. <br/>"+
+			"Il peut être utilisé dans de multiples situations, autant pour se concentrer que pour se changer les idées ou encore pour prendre du recul en situation de stress et ne pas céder à la panique. "+
+			"Très personnellement, je l\'utilise à peu près tous les soirs surtout après des journées chargées où j\'ai du mal à laisser des sujets en suspens pour le lendemain. Ce petit exercice tout simple aide à \"passer à autre chose\", "+
+			"à se concentrer sur autre chose que le travail et donc à faire redescendre la pression... au moins jusqu\'au lendemain ! J\'espère qu\'il vous sera utile :) <br/><br/>"+
+			"C\'est parti ! <br/> "+
+			"L\'exercice est présenté pour une personne droitière, si vous êtes gaucher·e, vous pouvez inverser les mains.<br/>"+
+			"Mettez-vous dans une position confortable, assis·e, couché·e, debout peu importe. Mettez vos deux mains devant vous à la verticale à peu près à hauteur d\'épaule, l\'important étant surtout de ne pas tendre de muscle "+
+			"donc d\'avoir les épaules bien descendues et détendues. Placez votre index droit à la racine de votre pouce gauche (donc sur le côté du poignet) puis fermez les yeux. Et c\'est parti, on respire !<br/>"+
+			"Remontez doucement et lentement l\'index le long de votre pouce en inspirant. Une fois arrivé au sommet, pausez un très bref instant, puis descendez de l\'autre côté jusqu\'au creux entre le pouce et l\'index en expirant. "+
+			"Continuez ainsi pour chaque doigt : inspirez en montant, légère pause, expirez en descendant. Une fois l\'auriculaire atteint, répétez l\'exercice dans l\'autre sens jusqu\'à revenir à votre point initial à la base du pouce."+
+			"<br/>Répétez à volonté :) <br/><br/>"+
+			"L\'avantage de cet exercice est qu\'il peut durer aussi longtemps que vous le souhaitez, vous pouvez faire autant d\'itérations que nécessaire pour être complètement serein·e, mais il peut aussi être très rapide si vous n\'avez pas beaucoup de temps. <br/>"+
+			"<h6>Pour aller + loin :</h6>"+
+			"Se concentrer sur sa respiration est un excellent moyen de réguler son stress et son anxiété."+
+			" Il existe de nombreuses façons de s\'y prendre, il vous faudra probablement fouiller un peu pour trouver les exercices qui vous conviennent : "+
+			"plutôt respiration active (on alterne les respirations rapides et lentes), plutôt relaxantes, ...<br/>"+
+			"Vous pouvez par exemple commencer par explorer <b>la cohérence cardiaque</b> ! "+
+			"Voici une <a href=\#https://www.youtube.com/watch?v=S7TrmMJogiM\" target=\"blank\">petite vidéo</a> de présentation du principe par Léo L'0dyssée, je pense que Youtube (ou le média de votre choix évidemment) saura vous guider tout seul vers des exercices de mise en pratique.<br/><br/>"+
+			"<h6>Bonne journée !</h6>";
 			break;
 		case "18" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
@@ -488,7 +508,7 @@ function getTitle(day){
 			title="On joue ?";
 			break;
 		case "17" : 
-			title="Petite introduction à la cohérence cardiaque";
+			title="Une petite bouffée d\'air";
 			break;
 		//WK
 		case "18" : 
