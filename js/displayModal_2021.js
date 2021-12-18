@@ -424,7 +424,18 @@ function showDay(day){
 			"<h6>Bonne journée !</h6>";
 			break;
 		case "18" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<img style=\"max-width:170px;max-height:220px;float:right;padding-left:10px;\" id=\"woman\" src=\"./img/woman_by_RoadLight_pixabay.png\"/>On va faire très simple aujourd'hui. Le week-end est fait pour se reposer et prendre du temps pour soi, mais ça ne veut pas dire traîner au lit jusqu\'à midi, manger et y retourner jusqu\'à l\'heure du diner. "+
+			"Mais pour vous laisser tout de même le temps de souffler, je reviens aujourd\'hui sur un principe très simple mais ô combien essentiel : <b>rester en mouvement</b>.<br/><br/>"+ 
+			"Le challenge du jour : <b>faire 10 000 pas</b> // <b> 1 heure de promenade en extérieur</b>.<br/><br/>"+
+			"Oui il fait froid, le soleil est peut-être caché, mais ce n\'est pas grave, vous serez content·e d\'avoir bravé cette météo difficile ! "+
+			"Et si vous avez l\'impression de perdre votre temps en allant vous promener, emmenez donc votre téléphone ou votre lecteur mp3 <span class=\"psst\">(si si, je vous assure ces choses existent encore!) </span>"+
+			"et profitez-en pour écouter au choix de nouvelles musiques, un livre lu ou encore un podcast. C\'est peut-être enfin l\'occasion de prendre le temps d\'écouter cette émission qui est passée la semaine dernière ou celle d\'avant !"+ 
+			" Vous savez tous ces sujets dont on se dit qu\'ils ont l\'air passionants mais on ne prend jamais le temps d\'approfondir. Une petite promenade me semble être le bon moment pour rattraper ça ! "+
+			"Et si vous n\'êtes pas seul·e, c'est peut-être l\'occasion d\'avoir une discussion agréable qui ne concerne pas la maison, les tâches ménagères ou encore le travail de chacun·e. Et si on réapprenait à communiquer simplement, honnêtement, dans la vraie vie, sans écran ? <br/>"+ 
+			"<h6>Pour aller + loin :</h6>"+
+			"Vous avez réussi aujourd'hui ? Que diriez-vous de recommencer demain ?"+
+			"<br/><br/>"+
+			"<h6> Bon samedi ! </h6>";
 			break;
 		case "19" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
@@ -512,7 +523,7 @@ function getTitle(day){
 			break;
 		//WK
 		case "18" : 
-			title="Quelques idées de Podcasts...";
+			title="Pas à pas";
 			break;
 		//WK
 		case "19" : 
