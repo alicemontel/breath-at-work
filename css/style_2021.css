@@ -100,7 +100,7 @@ a:not(.menu){
 	float : right;
 }
 
-#reading, #cocooning, #xmaspresent, #sketchnote, #manager, #breathe{
+#reading, #cocooning, #xmaspresent, #sketchnote, #manager, #breathe, #window{
 	max-width : 200px;
 	max-height : auto;
 	float : right; 
