@@ -452,7 +452,26 @@ function showDay(day){
 			"<br/><br/>Bon dimanche ! ";
 			break;
 		case "20" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="Nous vous proposons aujourd\'hui une astuce pour vous aider à vous organiser "+
+			"en ordonnant vos tâches selon deux critères : importance et urgence.<br/>C\'est le principe de la <b>matrice d\'Eisenhower</b>.<br/><br/>"+
+			"Dessinez deux axes sur une feuille : un pour l\'importance des tâches, l\'autre pour l\'urgence. Découpez ainsi le plan en quatre sections : "+
+			"<ol>"+
+			"<li>Tâches urgentes et importantes : à traiter en priorité ! </li>"+
+			"<li>Tâches non urgentes mais importantes : à planifier et ne pas reporter au-delà de la date planifiée.</li>"+
+			"<li>Tâches urgentes et non importantes : vous devriez réfléchir dans un premier temps à leur nécessité et les déléguer si possible.</li>"+
+			"<li>Tâches non urgentes et non importantes : sont-elles vraiment nécessaires ? Il y a sûrement moyen de s\'épargner du travail inutile...</li>"+
+			"</ol>"+
+			"Répartissez les actions de votre todo list globale dans ces quatre catégories. <br/>Cela vous donne une idée de l\'ordre dans lequel procéder, à vous de jouer !<br/>"+
+			"Concrètement, la matrice ressemble à ça : <br/>"+
+			"<center><img style=\"margin:auto;max-width:400px;max-height:400px;\" src=\"./img/matrice.PNG\"/></center>"+
+			"<h6>Pour aller + loin :</h6>"+
+			"Petit coup de pouce pour définir dans quel cadrant placer vos actions :"+
+			"<ol><li>Sont urgentes et importantes les tâches qui demandent une action immédiate, qui ont un impact sur vos objectifs, un projet avec une deadline imminente, mais aussi tout ce qui concerne la santé et la famille. Par exemple : la remise d\'un dossier à un client le jour J, une situation de crise, un conflit au sein de l\'équipe, ... </li>"+
+			"<li>Les tâches non urgentes mais importantes sont celles qui n\'ont pas d\'échéance imminente mais qui ont un impact sur vous ou votre équipe. Si vous planifiez correctement, vous devriez pouvoir diminuer significativement le volume de tâches importantes et urgentes car vous les aurez réalisées en temps et en heure comme planifié. Par exemple : le suivi d\'un dossier, planifier votre semaine mais aussi faire de l\'exercice, les formations, ...</li>"+
+			"<li>Sont urgentes mais non importantes les tâches qui requièrent votre attention immédiate mais qui ne vous feront pas avancer personnellement et qui servent en général les intérêts d\'une autre personne. Par exemple : la majorité des mails ! Dans la mesure du possible, déléguez pour vous focaliser sur l\'urgent et important. </li>"+
+			"<li>Les tâches non importantes et non urgentes peuvent probablement être abandonnées. Par exemple : certains mails, traîner sur les réseaux, ... </li>"+
+			"</ol>"+
+			"<h6>Bonne journée !</h6>";
 			break;
 		case "21" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
@@ -541,7 +560,7 @@ function getTitle(day){
 			title="Day off";
 			break;
 		case "20" : 
-			title="Egalité";
+			title="Priorisation";
 			break;
 		case "21" :
 			title="Souffrez-vous de réunionite aigue ?";
