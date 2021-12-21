@@ -474,7 +474,32 @@ function showDay(day){
 			"<h6>Bonne journée !</h6>";
 			break;
 		case "21" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<img style=\"max-width:170px;max-height:220px;float:right;padding-left:10px;\" id=\"woman\" src=\"./img/woman_by_RoadLight_pixabay.png\"/>Vous l\'entendez probablement souvent, surtout en cette période si particulière où le télétravail contraint et durable est majoritaire : "+
+			"l\'équilibre pro/perso est primordial !<br/><br/> Et pour cela, rien de mieux que quelques rituels pour structurer votre journée et annoncer clairement à votre cerveau : "+
+			"là je travaille, maintenant je me détends, enfin je vais dormir. "+
+			"Structurer votre journée, c\'est bénéfique non seulement pour l\'équilibre mais aussi pour la productivité, bref, tout bénef !<br/> <br/>"+
+			"En pratique, comment on fait ? À vous de définir des habitudes pour marquer chaque moment de la journée :"+
+			"<ol>"+
+			"<li>Quel sera votre rituel du réveil ? Attention : checker son téléphone est une mauvaise réponse, préférez plutôt une habitude telle : boire un verre d\'eau ou un café, faire du yoga, faire votre lit et ouvrir les volets, etc...</li>"+
+			"<li>Maintenant, quel signe indiquera à votre cerveau qu\'il est l\'heure de travailler ? Vous pouvez par exemple vous inspirer des Japonais qui font <a href=\"https://www.youtube.com/watch?v=XrEH5JLljDI&t=8s\" target=\"blank\">quelques minutes d\'échauffements</a> tous les matins et après la pause déjeuner avant de travailler.</li>"+
+			"<li>Pour gagner en productivité, il est également important de structurer votre journée : quelles sont vos tâches du jour, par quoi allez vous commencer ? Vous pouvez par exemple établir pour habitude de faire une session de deep work <span class=\"psst\">(travail sans interruption avec concentration à 100%)</span> d'1h tous les matins. "+
+			"Si vous n\'en avez pas l\'habitude, au début c\'est compliqué, mais plus vous répéterez cette action plus cela deviendra automatique et plus vous y arriverez !</li>"+
+			"<li>Avec le virus qui rôde et le télétravail, il est plus compliqué de sortir pour déjeuner. Il devient donc essentiel de marquer sa pause du midi. Hors de question de manger devant son écran ! "+
+			"Fermez donc votre PC le temps de votre pause, et tant qu\'à faire, laissez votre téléphone avec. Comme ça, vous pouvez faire une vraie pause, zéro sollicitation externe !</li>"+
+			"<li>En fin de journée, fermez votre ordinateur et coupez les notifications professionnelles. Vous pouvez ajouter une activité pour vous détendre et passer à autre chose pour de bon, par exemple une petite marche en plein air ? Une séance de sport ? "+
+			"Il est important de vous ménager du temps pour vous qui ne soit consacré ni au travail, ni aux tâches ménagères ni à la préparation des repas, bref, du temps de loisir, tous les jours !</li>"+
+			"<li>Last but not least, le rituel du coucher, essentiel pour passer une bonne nuit. La bonne pratique serait d\'arrêter les écrans au moins 1h avant d\'aller se coucher, mais aussi de ne pas lire trop longtemps. Au delà de 10 minutes, votre cerveau repasse en mode actif et ça ne favorise pas l\'endormissement. "+
+			"En bonus, de manière générale, il est bon de réserver son lit pour le temps de sommeil. C\'est un sacré challenge mais l\'idéal serait de sortir du lit dès le réveil, ne pas y rester pour lire ou surfer sur les réseaux sociaux. Ainsi, vous vous programmez pour dormir dès que vous vous mettez au lit !</li> "+ 
+			"</ol>"+
+			"Alors, quels rituels avez-vous choisis ? "+
+			"<h6>Pour aller + loin : </h6>"+
+			"En plus d\'établir les habitudes qui marquent les temps de votre journée, c\'est à vous de trouver le rythme qui vous convient. Nous n\'avons pas tous les mêmes horaires, certains sont plutôt couche-tôt, d'\autres lève-tard <span class=\"psst\">(parfois les deux en même temps mais là, ça devient un peu plus compliqué)</span>. "+
+			"C\'est donc à vous d\'identifier le rythme qui vous convient. Pour la culture, je vous partage un article de Welcome to the Jungle : <a href=\"https://www.welcometothejungle.com/fr/articles/routine-genies-creatifs-productivite\" target=\"blank\">Quels sont les rituels quotidiens des génies créatifs pour être productifs ?</a> "+
+			"qui vous donne des exemples d'organisation de journées pour quelques génies connus. Comme quoi, il n\'y a pas une solution parfaite, mais à chacun·e de trouver celle qui lui convient !<br/><br/>"+
+			"Pour l\'inspiration, voici deux petits articles pour vos routines matinales : "+
+			"<ol><li><a href=\"https://www.glassdoor.fr/blog/8-rituels-du-matin-pour-passer-une-journee-heureuse-et-productive/\" target=\"blank\">8 rituels du matin pour passer une journée heureuse et productive</a>, sur Glassdor.</li>"+
+			"<li><a href=\"https://www.helloworkplace.fr/six-rituels-matin-avant-travail/\" target=\"blank\">Six rituels du matin pour bien démarrer sa journée de travail</a> sur Hello Workplace.</li></ol>"+
+			"Bonne journée !";
 			break;
 		case "22" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
@@ -563,7 +588,7 @@ function getTitle(day){
 			title="Priorisation";
 			break;
 		case "21" :
-			title="Souffrez-vous de réunionite aigue ?";
+			title="Une question d'habitudes";
 			break;
 		case "22" : 
 			title="Les piliers de la bienveillance en entreprise"; 
