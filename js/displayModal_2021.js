@@ -564,7 +564,19 @@ function showDay(day){
 			"Le but est de pouvoir se dire : \"J\'ai été productif·ve, mais j\'ai encore du temps pour moi !\" ";
 			break;
 		case "24" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content=""+
+			"Place à la fête ! <br/>"+
+			"Puisque l\'apéritif des fêtes de fin d\'année est la première impression d\'un bon repas festif, nous vous proposons aujourd\'hui quelques recettes simples "+
+			"à réaliser pour entamer les festivités avec brio ! "+
+			"Une occasion de passer un super moment à cuisiner en famille ou entre amis.<br/>"+
+			"Entre canapés, bouchées, verrines, toasts, il y en a pour tous les goûts ! <br/> "+
+			"Voici les quelques suggestions du jour :"+
+			"<ol><li><a target=\"blank\" href=\"https://www.regal.fr/recettes/entrees/bouchees-de-saumon-en-habits-de-radis-8923\">Bouchées de saumon en habits de radis</a></li>"+
+			"<li><a target=\"blank\" href=\"https://www.regal.fr/recettes/aperitifs/canapes-aperitif-17036\">Canapés apéritifs</a></li>"+
+			"<li><a target=\"blank\" href=\"https://odelices.ouest-france.fr/recette/verrine-ricotta-saumon-concombre-r2334/\">Verrines ricotta, saumon et concombre</a></li>"+
+			"<li><a target=\"blank\" href=\"https://www.regal.fr/recettes/entrees/tartelettes-tatin-au-navet-et-jambon-iberique-17994\">Tartelettes au navet et jambon ibérique</a></li>"+
+			"<li><a target=\"blank\" href=\"https://chefsimon.com/gourmets/milounette/recettes/tartinade-de-potimarron-noisettee-et-ses-crackers\">Tartinades de potimarron et noisette</a></li></ol>"+
+			"<h6>Nous vous souhaitons de belles fêtes, et bon appétit !</h6>";
 			break;
 		case "25" : 
 			content="Encore un petit peu de patience... (je suis en retard)";
