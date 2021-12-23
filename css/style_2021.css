@@ -94,7 +94,7 @@ a:not(.menu){
 	max-height : 150px; 
  }
 
-#medit, #laptop{
+#medit, #laptop, #list{
 	max-width : auto;
 	max-height : 150px;
 	float : right;
