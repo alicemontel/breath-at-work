@@ -579,7 +579,10 @@ function showDay(day){
 			"<h6>Nous vous souhaitons de belles fêtes, et bon appétit !</h6>";
 			break;
 		case "25" : 
-			content="Encore un petit peu de patience... (je suis en retard)";
+			content="<img id=\"xmaspresent\" src=\"./img/woman-xmas-roadlight.png\"/>"+
+			"Pas de nouveau aujourd\'hui, il est l\'heure de profiter de l\'instant présent avec vos proches ! <br/> Nous vous souhaitons d\'excellentes fêtes de fin d\'année ! "+
+			"<h6>Le petit + : </h6>"+
+			"Pour retrouver facilement les astuces du calendrier, cliquer sur le petit + sur le côté droit de l\'écran :) ";
 			break;						
 	}
 	document.getElementById("titleModal").innerHTML=getTitle(day);

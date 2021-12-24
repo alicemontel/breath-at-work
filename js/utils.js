@@ -64,10 +64,12 @@ function fillCalendar(year){
 	shuffle(arr);
 	var calendarContent ="";
 	//xmas
-	key=26+todayYear;
+	key=25+todayYear;
 	if(todayYear>year || getSavedValue(key)=="open" ){
-		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileOpened modal-trigger\" onclick=\"javascript:saveValue(this);\" href=\"#modal1\">25</a></td></tr>";
-	} else {
+		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileOpened modal-trigger\" onclick=\"javascript:saveValue(this, now.getFullYear());\" href=\"#modal1\">25</a></td></tr>";
+	} else if (25<=todayDay && todayMonth==11 && getSavedValue(key)=="closed"){
+		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileClosed modal-trigger\" onclick=\"javascript:saveValue(this, now.getFullYear());\" href=\"#modal1\">25</a></td></tr>";
+	} else{
 		document.getElementById("xmasday").innerHTML="<tr><td class=\"td\"><a class=\"dayTileClosed modal-trigger\" href=\"#modalClosed\">25</a></td></tr>";		
 	}
 	//reste du calendrier 
