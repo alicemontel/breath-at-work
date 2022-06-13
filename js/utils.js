@@ -12,10 +12,31 @@ $(document).on('click', '.dayTileOpened', function(e){
 	showDay(day);
 });
 
+$(document).on('click', '.musicTileOpened', function(e){
+	var day = document.getElementById("propDay").innerHTML;
+	showDailyEnigma(day);
+});
+
 $(document).on('click', '.modalHistory', function(e){
 	var day = e.target.id;
 	showDay(day);
 });
+
+$(document).on('click', '.modalHistoryMusic', function(e){
+	var day = e.target.id;
+	showDailyEnigma(day);
+});
+
+function getMenu() {
+	var menu ="<a href=\"#!\" class=\"brand-logo\"><img src=\"./img/baw.PNG\"/></a>"+
+		"<ul class=\"right hide-on-med-and-down\">"+
+			"<li class=\"notli\"><a class=\"menu\" href=\"home.html\">Accueil</a></li>"+
+			"<li class=\"notli\"><a class=\"menu\" href=\"index.html\">Musique !</a></li>"+
+		    "<li class=\"notli\"><a class=\"menu\" href=\"calendar_2021.html\">Calendrier</a></li>"+		
+			"<li class=\"notli\"><a class=\"menu\" href=\"about.html\">A propos</a></li>"+
+		"</ul>";
+	return menu;
+}
 
 function getBforeXmas(){
 	today=new Date();
@@ -94,6 +115,7 @@ function fillCalendar(year){
 	return calendarContent;
 }
 
+
 function fillHistory(year){
 	var historyContent = "<ul class=\"collapsible\">";
 	var today = new Date();
@@ -121,3 +143,29 @@ function fillHistory(year){
 	}
 	return historyContent+"</ul>" ; 
 }
+
+function fillHistoryMusic(year){
+	var historyContent = "<ul class=\"collapsible\">";
+	var today = new Date();
+	if(today.getFullYear()>year){
+		for(i=1; i<=10; i++){
+			historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistoryMusic modal-trigger\" href=\"#modalM\" value='";
+			var title = getEnigma(i.toString());
+			historyContent += title;
+			historyContent += "\'/></li>";
+		}
+	} else {
+		if(today.getMonth() == 05){
+			for(i=1; i<=10; i++){
+				historyContent += "<li class=\"notli\"><input type=\"button\" id=\""+i+"\" class=\"modalHistoryMusic modal-trigger\" href=\"#modalM\" value=\"";
+				var title = getEnigma(i.toString());
+				historyContent += title;
+				historyContent += "\"/></li>";
+			}
+		} else {
+			historyContent += "Il n\'y a rien ici pour l'instant, reviens demain !"
+		}
+	}
+	return historyContent+"</ul>" ; 
+}
+

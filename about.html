@@ -12,16 +12,14 @@
     <script src="js/utils.js"></script>
 	<script src="js/displayModal.js"></script>
 </head>
-
+<script> 
+window.onload = function() {
+	document.getElementById("header").innerHTML=getMenu();
+} 
+</script>
 <body>
 	<nav>
-		<div class="header nav-wrapper">
-		<a href="#!" class="brand-logo"><img src="./img/baw.PNG"/></a>
-		<ul class="right hide-on-med-and-down">
-			<li class="notli"><a class="menu" href="home.html">Accueil</a></li>
-		    <li class="notli"><a class="menu" href="index.html">Calendrier</a></li>
-			<li class="notli"><a class="menu" href="about.html">A propos</a></li>
-		</ul>
+		<div class="header nav-wrapper" id="header">
 		</div>
 	</nav>
 	<div id="contactContent">
